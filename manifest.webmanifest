@@ -1,0 +1,15 @@
+{
+  "name": "Ironicamente Acida",
+  "short_name": "Ironicamente Acida",
+  "description": "Editor social local-first per template, foto, frasi e sticker.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F1EA",
+  "theme_color": "#F6F1EA",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

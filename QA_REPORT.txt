@@ -1,0 +1,20 @@
+IRONICAMENTE ACIDA — V1 MASTER — QA STRUTTURALE
+Data build: 21/09/2026
+
+Controlli eseguiti:
+- app.js: sintassi JavaScript valida (node --check)
+- db.js: sintassi JavaScript valida
+- zip.js: sintassi JavaScript valida
+- parser ZIP: verificato sul pacchetto master da 48 sticker; 51 voci lette, manifest trovato
+- banca frasi: 240 record, 240 ID univoci
+- categorie frasi: 8 categorie, 30 frasi ciascuna
+- frasi già usate iniziali: 4
+- sticker Starter Pack: 48 record
+- asset sticker mancanti: 0
+- asset sticker convertiti in WebP per alleggerire la PWA
+- icone PWA: 192, 512 e Apple Touch presenti
+- database locale: IndexedDB con frasi, sticker, progetti, metadati e bozze
+- Service Worker e manifest presenti
+
+Nota:
+Il test finale di interazione su iPhone deve essere eseguito dopo una pubblicazione temporanea HTTPS. Questa build NON è stata pubblicata su GitHub.

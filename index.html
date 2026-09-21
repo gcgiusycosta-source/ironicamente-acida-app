@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#F6F1EA" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Ironicamente Acida" />
+  <title>Ironicamente Acida</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="splash" class="splash">
+    <img src="./assets/icon-512.png" alt="Ironicamente Acida" />
+    <p>CREA · SCRIVI · PUBBLICA</p>
+  </div>
+
+  <div id="app" class="app-shell hidden">
+    <header class="app-header" id="global-header">
+      <button class="icon-button ghost" id="header-back" aria-label="Indietro">←</button>
+      <div class="brand-mini">
+        <img src="./assets/icon-192.png" alt="" />
+        <div><strong>ironicamente <em>acida</em></strong><small id="header-subtitle">studio</small></div>
+      </div>
+      <button class="icon-button ghost" id="header-settings" aria-label="Impostazioni">⚙</button>
+    </header>
+
+    <main class="screen-wrap">
+      <section class="screen active" data-screen="home">
+        <div class="home-hero">
+          <p class="eyebrow">IRONICAMENTE ACIDA STUDIO</p>
+          <h1>Cosa vuoi creare oggi?</h1>
+          <p>Due percorsi chiari. Il resto lo fa l’app.</p>
+        </div>
+        <div class="creation-grid">
+          <button class="creation-card primary" id="home-template">
+            <span class="creation-icon">Aa</span>
+            <strong>Crea da template</strong>
+            <small>Frase + grafica già impostata</small>
+          </button>
+          <button class="creation-card primary" id="home-photo">
+            <span class="creation-icon">▧</span>
+            <strong>Crea da foto</strong>
+            <small>Foto + filtro + frase + sticker</small>
+          </button>
+        </div>
+        <div class="home-shortcuts">
+          <button data-nav="phrases"><span>“</span><b>Frasi</b><small id="home-phrases-count">— disponibili</small></button>
+          <button data-nav="stickers"><span>♡</span><b>Sticker</b><small id="home-stickers-count">— elementi</small></button>
+          <button data-nav="projects"><span>▦</span><b>Progetti</b><small id="home-projects-count">— salvati</small></button>
+        </div>
+        <section class="panel-card recent-card">
+          <div class="section-heading"><div><p class="eyebrow">RIPRENDI</p><h2>Ultimi progetti</h2></div><button class="text-button" data-nav="projects">Vedi tutti</button></div>
+          <div id="home-recent" class="recent-projects empty-state">Nessun progetto salvato.</div>
+        </section>
+        <div id="low-phrase-alerts"></div>
+      </section>
+
+      <section class="screen" data-screen="templates">
+        <div class="screen-title"><p class="eyebrow">TEMPLATE TESTO</p><h1>Scegli lo stile</h1><p>La firma e l’identità grafica sono già impostate.</p></div>
+        <div class="template-picker" id="template-picker">
+          <button class="template-preview selected" data-template="editorial">
+            <span class="quote-glyph">“</span><strong>Le parole giuste<br><em>al momento giusto.</em></strong><small>♥ ironicamente acida</small><b>Editoriale</b>
+          </button>
+          <button class="template-preview" data-template="minimal">
+            <strong>La frase è<br>la protagonista.</strong><small>♥ ironicamente acida</small><b>Minimal</b>
+          </button>
+          <button class="template-preview" data-template="highlight">
+            <strong>Una frase<br><mark>da evidenziare.</mark></strong><small>♥ ironicamente acida</small><b>Highlight</b>
+          </button>
+        </div>
+        <button class="big-button" id="use-template">Usa questo template</button>
+      </section>
+
+      <section class="screen editor-screen" data-screen="editor">
+        <div class="editor-main">
+          <div class="canvas-shell" id="canvas-shell"><canvas id="design-canvas" width="1080" height="1920"></canvas></div>
+          <div class="selection-hint" id="selection-hint">Tocca un elemento aggiunto per selezionarlo.</div>
+        </div>
+        <div class="editor-controls">
+          <div class="tool-tabs" id="tool-tabs">
+            <button class="selected" data-tool="format"><span>▣</span>Formato</button>
+            <button data-tool="photo" data-photo-only><span>▧</span>Foto</button>
+            <button data-tool="filter" data-photo-only><span>◉</span>Filtro</button>
+            <button data-tool="text"><span>Aa</span>Testo</button>
+            <button data-tool="style"><span>✦</span>Stile</button>
+            <button data-tool="image" data-photo-only><span>▤</span>Immagine</button>
+            <button data-tool="sticker" data-photo-only><span>♡</span>Sticker</button>
+            <button data-tool="signature"><span>♥</span>Firma</button>
+          </div>
+          <div class="tool-body">
+            <div class="tool-panel active" data-panel="format">
+              <h3>Formato</h3>
+              <div class="option-grid four" id="format-options">
+                <button class="selected" data-value="story">9:16<small>Story</small></button>
+                <button data-value="post45">4:5<small>Post</small></button>
+                <button data-value="post34">3:4<small>Post</small></button>
+                <button data-value="square">1:1<small>Quadrato</small></button>
+              </div>
+            </div>
+            <div class="tool-panel" data-panel="photo">
+              <div class="section-heading compact"><h3>Foto principale</h3><button class="text-button" id="replace-photo">Sostituisci</button></div>
+              <label class="range-row">Zoom <input id="photo-zoom" type="range" min="1" max="2.8" step="0.01" value="1"><output>100%</output></label>
+              <label class="range-row">Orizzontale <input id="photo-x" type="range" min="-1" max="1" step="0.01" value="0"><output>0</output></label>
+              <label class="range-row">Verticale <input id="photo-y" type="range" min="-1" max="1" step="0.01" value="0"><output>0</output></label>
+            </div>
+            <div class="tool-panel" data-panel="filter">
+              <h3>Filtro</h3>
+              <div class="filter-options" id="filter-options">
+                <button data-value="original">Originale</button><button class="selected" data-value="soft">Acida Soft</button><button data-value="warm">Acida Warm</button><button data-value="neutral">Neutro</button>
+              </div>
+              <label class="range-row">Intensità <input id="filter-intensity" type="range" min="0" max="100" value="85"><output>85%</output></label>
+            </div>
+            <div class="tool-panel" data-panel="text">
+              <div class="section-heading compact"><h3>Testo</h3><button class="text-button" id="choose-phrase">Banca frasi</button></div>
+              <textarea id="phrase-input" rows="4" placeholder="Scrivi la tua frase…"></textarea>
+              <input id="highlight-input" class="field" placeholder="Parte da evidenziare (opzionale)" />
+              <div class="inline-options" id="text-tone"><button class="selected" data-value="dark">Scuro</button><button data-value="light">Chiaro</button></div>
+              <label class="range-row">Dimensione <input id="text-size" type="range" min="44" max="132" value="82"><output>82</output></label>
+              <label class="checkbox-row"><input id="save-manual-phrase" type="checkbox"> Salva anche questa frase nella banca</label>
+            </div>
+            <div class="tool-panel" data-panel="style">
+              <h3 id="style-panel-title">Stile</h3>
+              <div class="option-grid" id="style-options"></div>
+              <p class="muted" id="style-help"></p>
+            </div>
+            <div class="tool-panel" data-panel="image">
+              <div class="section-heading compact"><h3>Immagini aggiunte</h3><button class="text-button" id="add-image">+ Aggiungi</button></div>
+              <p class="muted">Puoi inserire cover, screenshot o altre fotografie. Massimo 5 elementi.</p>
+              <div id="layer-controls" class="layer-controls empty-state">Nessun elemento selezionato.</div>
+            </div>
+            <div class="tool-panel" data-panel="sticker">
+              <div class="section-heading compact"><h3>Sticker</h3><button class="text-button" id="go-sticker-library">Libreria completa</button></div>
+              <div id="editor-sticker-cats" class="horizontal-chips"></div>
+              <div id="editor-sticker-grid" class="sticker-grid small-grid"></div>
+            </div>
+            <div class="tool-panel" data-panel="signature">
+              <h3>Firma</h3>
+              <label class="switch-row"><span>Firma automatica</span><input id="signature-enabled" type="checkbox" checked></label>
+              <div class="inline-options" id="signature-position"><button data-value="left">Sinistra</button><button class="selected" data-value="center">Centro</button><button data-value="right">Destra</button></div>
+              <label class="range-row">Dimensione <input id="signature-size" type="range" min="45" max="120" value="78"><output>78%</output></label>
+            </div>
+          </div>
+        </div>
+        <div class="editor-footer">
+          <button class="secondary-button" id="preview-button">Anteprima</button>
+          <button class="secondary-button" id="save-project-button">Salva progetto</button>
+          <button class="big-button compact" id="export-button">Salva immagine</button>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="phrases">
+        <div class="screen-title row-title"><div><p class="eyebrow">CONTENT MANAGER</p><h1>Banca frasi</h1></div><button class="round-add" id="new-phrase">＋</button></div>
+        <div class="search-box"><span>⌕</span><input id="phrase-search" type="search" placeholder="Cerca una frase…"></div>
+        <div class="segmented" id="phrase-status-tabs"><button class="selected" data-status="available">Da usare</button><button data-status="used">Già usate</button><button data-status="favorite">Preferite</button></div>
+        <div id="phrase-category-chips" class="horizontal-chips"></div>
+        <div class="content-actions"><button id="bulk-phrases">＋ Aggiungi più frasi</button><button id="import-phrases">⇧ Importa pacchetto</button></div>
+        <div id="phrase-list" class="phrase-list"></div>
+      </section>
+
+      <section class="screen" data-screen="stickers">
+        <div class="screen-title row-title"><div><p class="eyebrow">CONTENT MANAGER</p><h1>Libreria sticker</h1></div><button class="round-add" id="new-sticker">＋</button></div>
+        <div class="search-box"><span>⌕</span><input id="sticker-search" type="search" placeholder="Cerca uno sticker…"></div>
+        <div id="sticker-category-chips" class="horizontal-chips"></div>
+        <div class="content-actions"><button id="import-sticker-zip">⇧ Importa ZIP</button><button id="sticker-favorites">♡ Preferiti</button></div>
+        <div id="sticker-grid" class="sticker-grid"></div>
+      </section>
+
+      <section class="screen" data-screen="projects">
+        <div class="screen-title"><p class="eyebrow">ARCHIVIO</p><h1>I tuoi progetti</h1><p>Apri, modifica, duplica o elimina.</p></div>
+        <div id="projects-list" class="projects-grid"></div>
+      </section>
+
+      <section class="screen" data-screen="settings">
+        <div class="screen-title"><p class="eyebrow">IMPOSTAZIONI</p><h1>La tua app</h1><p>Preferenze, contenuti e backup.</p></div>
+        <div class="settings-stack">
+          <section class="panel-card"><h2>Predefiniti</h2>
+            <label class="select-row">Filtro foto <select id="default-filter"><option value="soft">Acida Soft</option><option value="warm">Acida Warm</option><option value="neutral">Neutro</option><option value="original">Originale</option></select></label>
+            <label class="select-row">Formato <select id="default-format"><option value="story">Story 9:16</option><option value="post45">Post 4:5</option><option value="post34">Post 3:4</option><option value="square">Quadrato 1:1</option></select></label>
+          </section>
+          <section class="panel-card"><h2>Contenuti</h2>
+            <button class="settings-action" data-nav="phrases"><span>“</span><div><b>Gestisci frasi</b><small>Aggiungi, modifica, importa, recupera le usate</small></div><i>›</i></button>
+            <button class="settings-action" data-nav="stickers"><span>♡</span><div><b>Gestisci sticker</b><small>Aggiungi dal telefono o importa un pacchetto ZIP</small></div><i>›</i></button>
+          </section>
+          <section class="panel-card"><h2>Backup locale</h2><p class="muted">Il backup resta sul tuo dispositivo. Nessun server richiesto.</p>
+            <button class="big-button" id="backup-content">Esporta backup contenuti</button>
+            <button class="secondary-button full" id="backup-full">Esporta backup completo</button>
+            <button class="secondary-button full" id="restore-backup">Ripristina backup</button>
+          </section>
+          <section class="panel-card"><h2>Dati locali</h2><div class="stats-grid"><div><strong id="stats-phrases">—</strong><small>frasi</small></div><div><strong id="stats-stickers">—</strong><small>sticker</small></div><div><strong id="stats-projects">—</strong><small>progetti</small></div></div></section>
+          <section class="panel-card danger-zone"><h2>Ripristino Starter Pack</h2><p class="muted">Reinserisce i contenuti iniziali mancanti senza cancellare i tuoi.</p><button class="secondary-button full" id="reseed-content">Ripristina contenuti iniziali</button></section>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" id="bottom-nav">
+      <button class="selected" data-nav="home"><span>⌂</span>Home</button>
+      <button data-nav="phrases"><span>“</span>Frasi</button>
+      <button data-nav="stickers"><span>♡</span>Sticker</button>
+      <button data-nav="projects"><span>▦</span>Progetti</button>
+      <button data-nav="settings"><span>⚙</span>Impostazioni</button>
+    </nav>
+  </div>
+
+  <div class="modal" id="modal" aria-hidden="true"><div class="modal-sheet"><div class="modal-head"><h2 id="modal-title">Titolo</h2><button class="icon-button" id="modal-close">×</button></div><div id="modal-body"></div></div></div>
+  <div class="preview-overlay" id="preview-overlay"><button id="preview-close">×</button><div id="preview-canvas-wrap"></div><div class="preview-actions"><button class="secondary-button" id="preview-back">Modifica</button><button class="big-button compact" id="preview-export">Salva immagine</button></div></div>
+  <div class="toast" id="toast"></div>
+
+  <input id="photo-file" type="file" accept="image/*" hidden>
+  <input id="overlay-file" type="file" accept="image/*" hidden>
+  <input id="sticker-file" type="file" accept="image/png,image/webp,image/jpeg" hidden>
+  <input id="sticker-zip-file" type="file" accept=".zip,application/zip" hidden>
+  <input id="phrase-pack-file" type="file" accept=".json,.csv,.zip,application/json,text/csv,application/zip" hidden>
+  <input id="backup-file" type="file" accept=".json,application/json" hidden>
+
+  <script src="./db.js"></script>
+  <script src="./zip.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
