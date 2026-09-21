@@ -1,0 +1,4975 @@
+{
+  "nome": "Ironicamente Acida - Banca frasi V2",
+  "versione": "2.0",
+  "categorie": {
+    "buongiorno_vita_reale": 30,
+    "buongiorno_maternita": 30,
+    "buongiorno_libri": 30,
+    "maternita": 30,
+    "vita_reale": 30,
+    "viaggi": 30,
+    "libri": 30,
+    "amore_coppia_relazioni": 30
+  },
+  "totale_frasi": 240,
+  "testo_manuale": {
+    "abilitato": true,
+    "descrizione": "L'utente può scrivere una frase propria; l'app applica automaticamente font, palette, stile e firma selezionati.",
+    "campi": [
+      "testo_principale",
+      "testo_evidenziato_opzionale",
+      "stile",
+      "formato",
+      "firma_on_off",
+      "filtro"
+    ]
+  },
+  "regola_anti_duplicato": "Le frasi con gia_usata=true restano in archivio ma sono escluse dai suggerimenti automatici salvo selezione manuale.",
+  "entries": [
+    {
+      "id": "BGVR-01",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno. Per il momento ho solo acceso la faccia. Il resto arriverà con calma.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-02",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Cinque minuti di silenzio, un caffè e l’illusione di avere il controllo della giornata.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-03",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "La giornata può iniziare. Io no, ma lei sì.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-04",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno a chi ha dormito abbastanza. Io vi osservo con sincera invidia.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-05",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Prima il caffè. Poi eventualmente anche la personalità.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-06",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Stamattina mi sento organizzata. Nel senso che so esattamente da cosa sto scappando.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "mattina"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-07",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Un caffè, un respiro profondo e l’ennesimo tentativo di sembrare una persona funzionale.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-08",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno. Il mio piano per oggi è molto semplice: sopravvivere con una certa eleganza.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-09",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Ho aperto gli occhi, ho fatto il caffè e considero già raggiunti obiettivi importanti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-10",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Ci sono mattine in cui mi sveglio piena di energia. Questa non è una di quelle.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-11",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Il buongiorno si vede dal caffè. E dal fatto che nessuno mi parli troppo presto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-12",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Mattine così: io, il caffè e una disponibilità sociale ancora da verificare.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-13",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Oggi parto piano. Tanto le cose urgenti sapranno trovarmi da sole.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-14",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno a me, che anche oggi ho confuso una lista di cose da fare con un atto di ottimismo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-15",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "La sveglia ha suonato. Io ho preso atto e ho presentato ricorso al caffè.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-16",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Una nuova giornata, nuove possibilità e le stesse identiche cose lasciate a ieri.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-17",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Stamattina ho grandi progetti. Il primo è capire dove ho lasciato il telefono.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "mattina"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-18",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno. La motivazione è in ritardo, ma il caffè è puntuale.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-19",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Il mio ritmo del mattino è semplice: caffè, silenzio, trattative con la realtà.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-20",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Ogni mattina provo a diventare quella persona che si alza presto e fa tutto. Ogni mattina passa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "mattina"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-21",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Oggi affronterò tutto con calma. O almeno con una tazza abbastanza grande.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-22",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno da una persona che ha già pensato a troppe cose prima delle nove.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-23",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Caffè fatto. Capelli discutibili. Dignità ancora presente. Possiamo cominciare.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-24",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "La giornata promette molto. Io, per prudenza, prometto poco.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-25",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno. Non so cosa mi aspetta, ma ho già deciso che alcune cose potevano evitarsi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-26",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Il segreto delle mie mattine serene è non definirle serene troppo presto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-27",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Oggi mi prendo cinque minuti prima che tutti decidano che il mio tempo è un bene comune.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "tempo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-28",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "La vera routine del mattino è convincersi che stavolta usciremo in orario.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-29",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Buongiorno. Ho dormito, tecnicamente. Preferisco non entrare nei dettagli.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGVR-30",
+      "categoria": "buongiorno_vita_reale",
+      "testo": "Partiamo dal caffè. Le grandi decisioni possono aspettare almeno il secondo sorso.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-01",
+      "categoria": "buongiorno_maternita",
+      "testo": "Cinque minuti da sola con un caffè non risolvono tutto. Però migliorano drasticamente il mio carattere.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-02",
+      "categoria": "buongiorno_maternita",
+      "testo": "Il vero lusso della maternità? Bere il caffè quando è ancora caldo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-03",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno da me, dal caffè e da quel minuto scarso in cui nessuno mi sta chiamando.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-04",
+      "categoria": "buongiorno_maternita",
+      "testo": "Ci sono madri zen. Poi ci sono io, che considero il silenzio un evento quasi mistico.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-05",
+      "categoria": "buongiorno_maternita",
+      "testo": "Un libro, un caffè e cinque minuti di tregua: la mia versione adulta delle favole.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-06",
+      "categoria": "buongiorno_maternita",
+      "testo": "La maternità mi ha insegnato molte cose. Per esempio ad apprezzare pause brevissime come fossero vacanze di lusso.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-07",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno a tutte quelle che si siedono con un caffè e vengono trovate in meno di trenta secondi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-08",
+      "categoria": "buongiorno_maternita",
+      "testo": "Ho imparato che “sto un attimo da sola” è una frase bellissima, ma molto teorica.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-09",
+      "categoria": "buongiorno_maternita",
+      "testo": "Il mio momento di pace preferito? Quello in cui nessuno ha ancora deciso di aver bisogno di me.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-10",
+      "categoria": "buongiorno_maternita",
+      "testo": "Madre, lettrice, persona che sogna un caffè tranquillo come altri sognano i Caraibi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-11",
+      "categoria": "buongiorno_maternita",
+      "testo": "La giornata parte ufficialmente quando riesco a sedermi due minuti senza dover recuperare qualcosa, pulire qualcosa o mediare qualcosa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-12",
+      "categoria": "buongiorno_maternita",
+      "testo": "Caffè in mano, sorriso dignitoso, caos già operativo. Buongiorno anche oggi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-13",
+      "categoria": "buongiorno_maternita",
+      "testo": "La maternità ha reso il mio buongiorno molto semplice: tutti vivi, caffè presente, si procede.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-14",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno da quella fase della mattina in cui ho già detto “sbrigati” più volte di quante vorrei ammettere.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "mattina"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-15",
+      "categoria": "buongiorno_maternita",
+      "testo": "Il caffè del mattino è il mio breve incontro con la persona che ero prima che tutti si svegliassero.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-16",
+      "categoria": "buongiorno_maternita",
+      "testo": "Cinque minuti in silenzio prima della giornata: praticamente una spa, ma senza accappatoio.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-17",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno. La casa è sveglia e io sto ancora negoziando con me stessa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-18",
+      "categoria": "buongiorno_maternita",
+      "testo": "Ci sono mattine lente. Poi ci sono quelle con figli, scarpe da trovare e una tazza dimenticata sul tavolo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-19",
+      "categoria": "buongiorno_maternita",
+      "testo": "Il mio buongiorno ideale prevede un caffè caldo e nessuno che chieda dove sia qualcosa che ha davanti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-20",
+      "categoria": "buongiorno_maternita",
+      "testo": "Maternità, ore 7:12: ho già risolto tre crisi e non ho ancora finito il caffè.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-21",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno. Oggi proverò a non ripetere la stessa frase quindici volte. Ambizioni importanti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-22",
+      "categoria": "buongiorno_maternita",
+      "testo": "La giornata con i figli comincia quando tu pensavi di avere ancora dieci minuti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-23",
+      "categoria": "buongiorno_maternita",
+      "testo": "Prima del primo caffè non sono disponibile per richieste, mediazioni o domande che iniziano con “mamma”.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-24",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno alle madri che hanno già fatto abbastanza prima ancora di uscire di casa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-25",
+      "categoria": "buongiorno_maternita",
+      "testo": "A volte basta un caffè in pace per ricordarsi di essere anche una persona adulta con dei pensieri propri.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-26",
+      "categoria": "buongiorno_maternita",
+      "testo": "La mattina perfetta esiste: nessuno litiga, tutti trovano le scarpe e il caffè resta caldo. Ne ho sentito parlare.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "mattina"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-27",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno. Ho cinque minuti, un libro aperto e la piena consapevolezza che durerà pochissimo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-28",
+      "categoria": "buongiorno_maternita",
+      "testo": "La maternità ti insegna a fare colazione in piedi e a chiamarla organizzazione.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-29",
+      "categoria": "buongiorno_maternita",
+      "testo": "Oggi il mio obiettivo è semplice: accompagnare tutti dove devono andare e ricordarmi dove devo andare io.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGM-30",
+      "categoria": "buongiorno_maternita",
+      "testo": "Buongiorno da me e dalla mia agenda mentale, già aperta da prima della sveglia.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-01",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno. Prima il caffè, poi qualche pagina, poi vediamo se vale la pena entrare nel mondo reale.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-02",
+      "categoria": "buongiorno_libri",
+      "testo": "Cinque minuti, un caffè e un libro: il mio modo preferito di rimandare elegantemente la giornata.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-03",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno da me e dal capitolo che doveva essere l’ultimo ieri sera.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-04",
+      "categoria": "buongiorno_libri",
+      "testo": "Il giorno può iniziare. Prima però vorrei sapere come finisce questo capitolo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-05",
+      "categoria": "buongiorno_libri",
+      "testo": "Mattina ideale: caffè caldo, libro aperto e nessuno che pronunci la parola “sbrigati”.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "mattina",
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-06",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno. Ho già letto qualche pagina, quindi considero la giornata culturalmente avviata.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-07",
+      "categoria": "buongiorno_libri",
+      "testo": "Un libro al mattino non risolve i problemi. Ma li rende decisamente meno rumorosi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-08",
+      "categoria": "buongiorno_libri",
+      "testo": "Ci sono persone che meditano. Io leggo dieci pagine e provo a ottenere lo stesso risultato.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-09",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno. La mia agenda dice cose da fare. Il libro sostiene una versione alternativa dei fatti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-10",
+      "categoria": "buongiorno_libri",
+      "testo": "Il primo appuntamento della giornata è con il caffè. Il secondo, possibilmente, con un capitolo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-11",
+      "categoria": "buongiorno_libri",
+      "testo": "Stamattina avrei bisogno di calma, silenzio e almeno venti pagine senza interruzioni. Chiedo poco.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "silenzio",
+        "mattina"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-12",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno a chi apre un libro mentre il resto della casa è ancora in modalità caricamento.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-13",
+      "categoria": "buongiorno_libri",
+      "testo": "La mia routine del mattino sarebbe perfetta se la parte “leggere in pace” durasse più di sette minuti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-14",
+      "categoria": "buongiorno_libri",
+      "testo": "Prima di parlare con le persone preferisco consultare un romanzo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-15",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno. Oggi inizio con una storia che non è la mia, e già mi sembra un ottimo piano.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-16",
+      "categoria": "buongiorno_libri",
+      "testo": "Il vantaggio dei libri al mattino è che non fanno domande prima del caffè.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-17",
+      "categoria": "buongiorno_libri",
+      "testo": "Caffè, pagina segnata, silenzio: per qualche minuto la vita può aspettare fuori.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-18",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno. Ho un libro sul comodino e pochissima intenzione di essere ragionevole.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-19",
+      "categoria": "buongiorno_libri",
+      "testo": "Il mio equilibrio mattutino dipende da due cose: caffeina e narrativa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-20",
+      "categoria": "buongiorno_libri",
+      "testo": "Stamattina riparto da dove avevo lasciato il segnalibro. Per il resto improvviseremo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "mattina",
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-21",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno a chi si promette “solo cinque pagine” sapendo perfettamente di mentire.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-22",
+      "categoria": "buongiorno_libri",
+      "testo": "Un capitolo prima di iniziare la giornata dovrebbe essere riconosciuto come misura di prevenzione sociale.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-23",
+      "categoria": "buongiorno_libri",
+      "testo": "Il mio buongiorno preferito ha copertina, pagine e nessuna notifica.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-24",
+      "categoria": "buongiorno_libri",
+      "testo": "Sveglia, caffè, libro. Tutto il resto può mettersi educatamente in fila.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-25",
+      "categoria": "buongiorno_libri",
+      "testo": "Oggi comincio da una pagina, perché dalla realtà mi serve ancora qualche minuto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-26",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno. Se mi cercate, sono momentaneamente in un’altra storia.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-27",
+      "categoria": "buongiorno_libri",
+      "testo": "La giornata ha già molte pretese. Io ne ho una sola: finire questo capitolo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-28",
+      "categoria": "buongiorno_libri",
+      "testo": "Mattine da lettrice: il caffè si raffredda, il libro no.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "caffè",
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-29",
+      "categoria": "buongiorno_libri",
+      "testo": "Buongiorno da quella persona che tiene un libro vicino anche quando sa benissimo che non avrà tempo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [
+        "libro",
+        "tempo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "BGL-30",
+      "categoria": "buongiorno_libri",
+      "testo": "Prima di affrontare il lunedì, vorrei almeno sapere cosa succede ai miei personaggi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Minimal"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-01",
+      "categoria": "maternita",
+      "testo": "I figli ti insegnano a vivere il presente. Perché appena programmi qualcosa, lo distruggono.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-02",
+      "categoria": "maternita",
+      "testo": "La maternità è passare la giornata desiderando silenzio e la sera controllare se respirano perché c’è troppo silenzio.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-03",
+      "categoria": "maternita",
+      "testo": "Prima di avere figli pensavo che “mettiti le scarpe” fosse una frase. Adesso so che è un progetto a lungo termine.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-04",
+      "categoria": "maternita",
+      "testo": "I bambini hanno un udito selettivo: non sentono il loro nome, ma percepiscono l’apertura di una confezione a trenta metri.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-05",
+      "categoria": "maternita",
+      "testo": "Essere madre significa sapere dove sono le cose di tutti e cercare continuamente le proprie.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-06",
+      "categoria": "maternita",
+      "testo": "Mi avevano detto che i figli ti cambiano la vita. Non avevano specificato anche gli orari, il sonno e il bagno in solitudine.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-07",
+      "categoria": "maternita",
+      "testo": "La maternità è quella fase della vita in cui andare da sola al supermercato sembra un weekend benessere.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-08",
+      "categoria": "maternita",
+      "testo": "I figli dormono profondamente solo quando devi svegliarli.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-09",
+      "categoria": "maternita",
+      "testo": "Non urlo. Sto semplicemente ripetendo la stessa cosa per la diciottesima volta con maggiore partecipazione emotiva.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-10",
+      "categoria": "maternita",
+      "testo": "Essere madre significa amare qualcuno più della tua stessa vita e chiedergli comunque, per favore, di andare nell’altra stanza.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-11",
+      "categoria": "maternita",
+      "testo": "Prima dei figli avevo opinioni molto precise sull’educazione. Poi sono arrivati i figli.",
+      "fonte": "gia_usata",
+      "gia_usata": true,
+      "attiva_per_suggerimenti": false,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-12",
+      "categoria": "maternita",
+      "testo": "I bambini chiedono “perché?” fino a quando anche tu inizi a chiederti perché.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-13",
+      "categoria": "maternita",
+      "testo": "La frase “mamma guarda” può contenere dalle tre alle novecento richieste quotidiane.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-14",
+      "categoria": "maternita",
+      "testo": "Il vero silenzio non è rilassante quando hai dei figli. È un indizio.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "silenzio",
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-15",
+      "categoria": "maternita",
+      "testo": "Ci sono giorni in cui essere madre è meraviglioso. E giorni in cui è meraviglioso quando vanno a dormire.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-16",
+      "categoria": "maternita",
+      "testo": "Avere figli significa scoprire che una porta chiusa è, per loro, un invito personale.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-17",
+      "categoria": "maternita",
+      "testo": "La maternità mi ha insegnato che cinque minuti possono essere pochissimi o un patrimonio, dipende da chi sta dormendo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-18",
+      "categoria": "maternita",
+      "testo": "Essere madre è ricordare tutto per tutti e dimenticare perché eri entrata in quella stanza.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-19",
+      "categoria": "maternita",
+      "testo": "Ho sviluppato capacità organizzative incredibili. Peccato che il resto della famiglia le consideri un servizio incluso.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-20",
+      "categoria": "maternita",
+      "testo": "I figli non interrompono. Entrano direttamente nella conversazione come se avessero acquistato i diritti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-21",
+      "categoria": "maternita",
+      "testo": "La maternità è amare profondamente qualcuno che ti chiede acqua dopo aver ignorato la borraccia per tre ore.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-22",
+      "categoria": "maternita",
+      "testo": "Ci sono giornate in cui mi sento una madre impeccabile. Di solito durano circa undici minuti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-23",
+      "categoria": "maternita",
+      "testo": "A volte vorrei fermare il tempo. Altre volte vorrei solo arrivare all’ora di dormire.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "tempo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-24",
+      "categoria": "maternita",
+      "testo": "La maternità è quel posto in cui puoi essere indispensabile e completamente ignorata nello stesso minuto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-25",
+      "categoria": "maternita",
+      "testo": "I figli crescono in fretta. Le pile di vestiti da sistemare, invece, sembrano immortali.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-26",
+      "categoria": "maternita",
+      "testo": "Non serve essere una madre perfetta. Serve sapere dove sono le merendine e mantenere una certa credibilità.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-27",
+      "categoria": "maternita",
+      "testo": "Essere madre mi ha reso più paziente. Non abbastanza da apprezzare la stessa domanda diciassette volte.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-28",
+      "categoria": "maternita",
+      "testo": "La maternità è un equilibrio delicato tra tenerezza infinita e desiderio di finire una frase.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-29",
+      "categoria": "maternita",
+      "testo": "I figli ti fanno riscoprire il mondo. Soprattutto quello che avevi appena messo in ordine.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "figli"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "MAT-30",
+      "categoria": "maternita",
+      "testo": "A volte essere una brava madre significa semplicemente arrivare a sera senza aver perso nessuno, compresa te stessa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "madre"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-01",
+      "categoria": "vita_reale",
+      "testo": "Ho raggiunto quell’età in cui annullare un programma mi dà più gioia che organizzarlo.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-02",
+      "categoria": "vita_reale",
+      "testo": "Non sono stanca. Sono semplicemente in modalità risparmio energetico da circa tre anni.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-03",
+      "categoria": "vita_reale",
+      "testo": "Mi piace la spontaneità. Purché venga organizzata con almeno due giorni di anticipo.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-04",
+      "categoria": "vita_reale",
+      "testo": "La mia giornata è perfettamente sotto controllo. Basta non fare domande.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-05",
+      "categoria": "vita_reale",
+      "testo": "Vorrei essere una di quelle persone che “si lascia andare”. Io al massimo lascio andare una lavatrice.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-06",
+      "categoria": "vita_reale",
+      "testo": "Non rimando le cose. Le lascio maturare fino a quando diventano urgenti.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-07",
+      "categoria": "vita_reale",
+      "testo": "Ogni mattina mi sveglio piena di buoni propositi. Alcuni arrivano persino fino al caffè.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "caffè",
+        "mattina"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-08",
+      "categoria": "vita_reale",
+      "testo": "Ho imparato a non discutere con tutti. Adesso giudico in silenzio. È molto più riposante.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-09",
+      "categoria": "vita_reale",
+      "testo": "Mi servirebbe una giornata tra sabato e domenica che nessuno conosce.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-10",
+      "categoria": "vita_reale",
+      "testo": "La vera ricchezza adulta è dire “stasera non esco” senza inventare una scusa.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-11",
+      "categoria": "vita_reale",
+      "testo": "Non ho bisogno di ritrovare me stessa. So perfettamente dove sono. Vorrei soltanto stare lì da sola cinque minuti.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-12",
+      "categoria": "vita_reale",
+      "testo": "Sono una persona molto paziente. Finché nessuno parla.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-13",
+      "categoria": "vita_reale",
+      "testo": "Non è che non ho tempo. È che ormai lo difendo.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "tempo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-14",
+      "categoria": "vita_reale",
+      "testo": "Ci sono persone che entrano nella tua vita per insegnarti qualcosa. Per esempio a mettere il telefono in modalità silenziosa.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "silenzio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-15",
+      "categoria": "vita_reale",
+      "testo": "Il mio livello di maturità dipende molto da quanto ho dormito.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-16",
+      "categoria": "vita_reale",
+      "testo": "La mia pace interiore esiste. Ha degli orari molto limitati.",
+      "fonte": "gia_usata",
+      "gia_usata": true,
+      "attiva_per_suggerimenti": false,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-17",
+      "categoria": "vita_reale",
+      "testo": "Con il tempo ho smesso di discutere con tutti. Adesso giudico in silenzio. E vivo molto meglio.",
+      "fonte": "gia_usata",
+      "gia_usata": true,
+      "attiva_per_suggerimenti": false,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "silenzio",
+        "tempo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-18",
+      "categoria": "vita_reale",
+      "testo": "So fare tutto da sola. Non significa che abbia voglia di farlo sempre.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-19",
+      "categoria": "vita_reale",
+      "testo": "Indipendente sì. Disponibile a occuparmi di tutto, anche no.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-20",
+      "categoria": "vita_reale",
+      "testo": "Mi sono salvata da sola così tante volte che adesso vorrei almeno non dover organizzare tutto io.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-21",
+      "categoria": "vita_reale",
+      "testo": "Non ho bisogno di essere salvata. Però apprezzo molto chi non mi crea ulteriori emergenze.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-22",
+      "categoria": "vita_reale",
+      "testo": "Essere una donna forte è bellissimo. Anche potersi stancare senza doverlo giustificare.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-23",
+      "categoria": "vita_reale",
+      "testo": "Non cerco qualcuno che mi risolva la vita. Mi basterebbe qualcuno che non diventi un’altra cosa da risolvere.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-24",
+      "categoria": "vita_reale",
+      "testo": "Non pretendo molto. Solo che “ci penso io” ogni tanto non significhi comunque “ricordamelo tu”.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-25",
+      "categoria": "vita_reale",
+      "testo": "La mia idea di equilibrio è riuscire a fare tutto senza che nessuno mi chieda perché sono stanca.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-26",
+      "categoria": "vita_reale",
+      "testo": "Sto imparando a scegliere le mie battaglie. Molte, fortunatamente, non meritano neanche che mi metta le scarpe.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "fortunata"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-27",
+      "categoria": "vita_reale",
+      "testo": "La serenità adulta è smettere di spiegarsi a chi ha già deciso di non capire.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-28",
+      "categoria": "vita_reale",
+      "testo": "Non sono diventata asociale. Ho solo alzato molto gli standard per uscire di casa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-29",
+      "categoria": "vita_reale",
+      "testo": "Ci sono giornate produttive e giornate in cui sposto le cose da una lista all’altra con grande professionalità.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VR-30",
+      "categoria": "vita_reale",
+      "testo": "La mia versione migliore esiste. Oggi aveva altri impegni.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-01",
+      "categoria": "viaggi",
+      "testo": "I viaggi regalano mille emozioni. Alcune hanno il volto della meraviglia, altre quello di chi ha sbagliato fermata.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-02",
+      "categoria": "viaggi",
+      "testo": "Quando parti non sai mai cosa ti aspetta. Ed è questa la parte bella. Pare.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-03",
+      "categoria": "viaggi",
+      "testo": "Mi piace viaggiare per vedere posti nuovi, ma soprattutto per avere una scusa elegante per sparire un po’.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-04",
+      "categoria": "viaggi",
+      "testo": "Ci sono luoghi che ti allargano il respiro e ti rimettono in ordine senza chiederti nulla.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-05",
+      "categoria": "viaggi",
+      "testo": "Io in viaggio divento una versione più leggera di me. Sempre ironica, ma con un panorama migliore.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "viaggio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-06",
+      "categoria": "viaggi",
+      "testo": "Partire mi piace per questo: per qualche giorno la testa smette di fare l’amministratrice di condominio della mia vita.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-07",
+      "categoria": "viaggi",
+      "testo": "Viaggiare è bellissimo. Disfare la valigia molto meno, ma cerco di concentrarmi sulle cose poetiche.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-08",
+      "categoria": "viaggi",
+      "testo": "Ogni viaggio mi ricorda che cambiare aria non risolve tutto. Però aiuta parecchio.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "viaggio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-09",
+      "categoria": "viaggi",
+      "testo": "A me i viaggi piacciono così: un posto bello, scarpe comode e nessuna voglia di fare programmi eccessivi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-10",
+      "categoria": "viaggi",
+      "testo": "Ci sono città che si visitano. Altre che, senza troppi complimenti, ti restano addosso.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-11",
+      "categoria": "viaggi",
+      "testo": "In viaggio riesco a fare una cosa che nella vita normale mi riesce poco: stare davvero dove sono.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "viaggio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-12",
+      "categoria": "viaggi",
+      "testo": "Il lato migliore del partire è che, almeno per un po’, la mente cambia stanza.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-13",
+      "categoria": "viaggi",
+      "testo": "Il problema dei viaggi è che dopo aver visto certi posti il salotto perde parecchio fascino.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-14",
+      "categoria": "viaggi",
+      "testo": "Parto sempre con l’idea di viaggiare leggera. La valigia non condivide il progetto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-15",
+      "categoria": "viaggi",
+      "testo": "Viaggiare insegna molte cose. Per esempio che “a due passi” è un concetto estremamente elastico.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-16",
+      "categoria": "viaggi",
+      "testo": "Mi piacciono i posti che non chiedono di essere fotografati bene per essere ricordati.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-17",
+      "categoria": "viaggi",
+      "testo": "Un viaggio riuscito è quello in cui torno stanca, felice e con almeno una storia che non avevo previsto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "viaggio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-18",
+      "categoria": "viaggi",
+      "testo": "In vacanza ho un rapporto più sano con il tempo: non so che ore sono e non mi interessa particolarmente.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "tempo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-19",
+      "categoria": "viaggi",
+      "testo": "I posti nuovi mi piacciono perché per qualche giorno nessuno sa cosa dovrei fare.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-20",
+      "categoria": "viaggi",
+      "testo": "Viaggiare con me significa camminare molto, fermarsi per un caffè e rivalutare continuamente il programma.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-21",
+      "categoria": "viaggi",
+      "testo": "Non colleziono souvenir. Colleziono fotografie, scontrini inutili e la certezza che tornerò.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-22",
+      "categoria": "viaggi",
+      "testo": "Il bello di perdersi in una città nuova è che, per una volta, nessuno può dire che hai sbagliato strada apposta.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-23",
+      "categoria": "viaggi",
+      "testo": "Ci sono partenze che servono per vedere il mondo e altre, molto più semplicemente, per sentirsi di nuovo presenti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-24",
+      "categoria": "viaggi",
+      "testo": "Ogni viaggio comincia con entusiasmo e finisce con me seduta sulla valigia per chiuderla.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "viaggio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-25",
+      "categoria": "viaggi",
+      "testo": "Il mio itinerario ideale ha pochi orari e molte possibilità di cambiare idea.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-26",
+      "categoria": "viaggi",
+      "testo": "Amo i viaggi organizzati bene, purché lascino abbastanza spazio per ignorare il programma.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-27",
+      "categoria": "viaggi",
+      "testo": "Ci sono posti che fotografi per ricordarli e posti che ricordi anche senza averli fotografati.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-28",
+      "categoria": "viaggi",
+      "testo": "In viaggio cammino per chilometri senza lamentarmi. A casa considero lontano anche il supermercato.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "viaggio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-29",
+      "categoria": "viaggi",
+      "testo": "Partire è un ottimo modo per ricordarsi che il mondo è molto più grande delle cose che ci occupano la testa.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "VIAG-30",
+      "categoria": "viaggi",
+      "testo": "Il rientro da un viaggio ha sempre due fasi: lavatrici e nostalgia. Non necessariamente in quest’ordine.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Foto",
+        "Highlight"
+      ],
+      "tags": [
+        "viaggio"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-01",
+      "categoria": "libri",
+      "testo": "Non compro troppi libri. Sto semplicemente preparando la mia vecchiaia.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-02",
+      "categoria": "libri",
+      "testo": "Ho già tantissimi libri da leggere. È proprio per questo che devo comprarne un altro.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-03",
+      "categoria": "libri",
+      "testo": "Entrare in libreria senza comprare niente è una competenza che non ho mai ritenuto necessario sviluppare.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-04",
+      "categoria": "libri",
+      "testo": "Leggo per rilassarmi. Poi scelgo saghe familiari piene di traumi, segreti e matrimoni infelici.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-05",
+      "categoria": "libri",
+      "testo": "Il problema dei libri belli è che finiscono. Quello dei libri brutti è che mi ostino a finirli.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-06",
+      "categoria": "libri",
+      "testo": "La mia pila dei libri da leggere non è fuori controllo. Ha semplicemente acquisito autonomia.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-07",
+      "categoria": "libri",
+      "testo": "“Stasera vado a letto presto.” Poi il capitolo finisce in un modo che considero personalmente offensivo.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-08",
+      "categoria": "libri",
+      "testo": "Ci sono persone che comprano un libro quando hanno finito quello precedente. Le rispetto, anche se non capisco come vivano.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-09",
+      "categoria": "libri",
+      "testo": "Non giudico un libro dalla copertina. Però una bella copertina ha già ottenuto udienza.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-10",
+      "categoria": "libri",
+      "testo": "Il mio genere letterario preferito è: “Non avevo nessuna intenzione di iniziare una nuova saga”.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-11",
+      "categoria": "libri",
+      "testo": "Quando dico “entro solo a dare un’occhiata in libreria” sto mentendo soprattutto a me stessa.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-12",
+      "categoria": "libri",
+      "testo": "Abbandonare un libro è maturità. Continuare per altre duecento pagine sperando che migliori è il mio carattere.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-13",
+      "categoria": "libri",
+      "testo": "Ho bisogno di più tempo per leggere. Continuo inspiegabilmente a comprarlo sotto forma di libri.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri",
+        "tempo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-14",
+      "categoria": "libri",
+      "testo": "Un buon libro mi fa dimenticare il telefono. Un ottimo libro mi fa dimenticare anche le persone.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-15",
+      "categoria": "libri",
+      "testo": "La frase più pericolosa che posso pronunciare è: “Inizio solo qualche pagina”.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-16",
+      "categoria": "libri",
+      "testo": "Sono entrata nei Cazalet con curiosità. Adesso ne voglio sapere tutto, come succede con le famiglie che sembrano perfette e non lo sono affatto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "cazalet"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-17",
+      "categoria": "libri",
+      "testo": "Con i Cazalet sto facendo quella cosa pericolosa in cui ti affezioni ai personaggi e poi pretendi stabilità emotiva da un romanzo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "cazalet"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-18",
+      "categoria": "libri",
+      "testo": "Le saghe familiari hanno questo difetto meraviglioso: inizi per leggere un libro e finisci per trasferirti lì dentro.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libro"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-19",
+      "categoria": "libri",
+      "testo": "Sto leggendo i Cazalet e, al momento, la mia vita sociale sta pagando un prezzo piuttosto alto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "cazalet"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-20",
+      "categoria": "libri",
+      "testo": "I Cazalet mi stanno ricordando che nelle famiglie perfette la perfezione dura sempre meno di quanto sembri.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "cazalet"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-21",
+      "categoria": "libri",
+      "testo": "Ho già in mente il prossimo romanzo: Fortunata. Il bello di finire un libro è avere subito un altro da desiderare.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libro",
+        "fortunata"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-22",
+      "categoria": "libri",
+      "testo": "Sto già guardando Fortunata con quell’aria da “tu e io ci vedremo molto presto”.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "fortunata"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-23",
+      "categoria": "libri",
+      "testo": "Una delle mie forme preferite di ottimismo è scegliere già il romanzo da iniziare dopo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-24",
+      "categoria": "libri",
+      "testo": "Ho voglia di leggere DeLillo, che è un po’ come dire: mi sento pronta a essere intelligentemente destabilizzata.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "delillo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-25",
+      "categoria": "libri",
+      "testo": "Ogni tanto sento il bisogno di un autore che non mi intrattenga soltanto, ma mi costringa anche a pensare meglio. Ed è lì che entra DeLillo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "delillo"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-26",
+      "categoria": "libri",
+      "testo": "Vorrei comprare nuovi Adelphi, come se in casa mancassero libri. Ma alcune debolezze meritano rispetto.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri",
+        "adelphi"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-27",
+      "categoria": "libri",
+      "testo": "La mia relazione con gli Adelphi è molto semplice: li guardo, li desidero, li porto via.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "adelphi"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-28",
+      "categoria": "libri",
+      "testo": "Ci sono acquisti impulsivi e poi ci sono gli Adelphi, che io preferisco chiamare investimenti emotivi.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "adelphi"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-29",
+      "categoria": "libri",
+      "testo": "Ogni volta che vedo certi Adelphi mi convinco che il problema non sia comprare libri, ma non avere abbastanza scaffali.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "libri",
+        "adelphi"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "LIB-30",
+      "categoria": "libri",
+      "testo": "Leggere per me non è mai stato un hobby. È un modo molto civile di sottrarmi al rumore.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-01",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "A una certa età il vero corteggiamento è: “Passo io al supermercato”.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-02",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "L’amore è condividere tutto. Tranne il lato comodo del letto.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "amore"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-03",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "La coppia adulta è due persone che si vogliono bene e si accusano reciprocamente di aver spostato il caricabatterie.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "coppia"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-04",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Non voglio essere sorpresa. Voglio sapere cosa mangiamo stasera.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-05",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Le farfalle nello stomaco sono bellissime. Però anche sapere che qualcuno ha già prenotato il ristorante non è male.",
+      "fonte": "gia_usata",
+      "gia_usata": true,
+      "attiva_per_suggerimenti": false,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-06",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "La comunicazione è fondamentale in una coppia. Soprattutto quella frase: “Non importa, faccio io”.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "coppia"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-07",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Il vero amore è qualcuno che ti vede nel tuo peggior momento e non ti propone di parlarne proprio in quel momento.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "amore"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-08",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Dicono che bisogna mantenere viva la passione. Io inizierei mantenendo viva la pazienza.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-09",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Ci amiamo molto. È solo che abbiamo definizioni molto diverse di “tra cinque minuti”.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-10",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "La coppia perfetta non esiste. Quella che sa cosa ordinare senza discutere è già parecchio avanti.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "coppia"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-11",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "L’amore maturo è quando smetti di aspettarti le poesie e inizi ad apprezzare chi ha ricordato di comprare il detersivo.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "amore"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-12",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Non mi serve qualcuno che mi completi. Mi serve qualcuno che non mi chieda cosa voglio mangiare quando ho già fame.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-13",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "A volte il segreto di una relazione felice è semplicemente avere due coperte.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-14",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Le relazioni durature si basano sulla fiducia. E sul fingere di non aver sentito alcune cose.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-15",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "L’amore è anche sapere quando parlare. E soprattutto quando assolutamente no.",
+      "fonte": "banca_facebook_2026-09-20",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "amore"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-16",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Le grandi dichiarazioni sono bellissime. Anche “ho già pensato io alla cena” ha il suo fascino.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-17",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Una relazione adulta è sapere che “fai come vuoi” non è quasi mai un’autorizzazione.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-18",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "L’amore vero non elimina i problemi. Al massimo ti porta il caffè mentre li affronti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "caffè",
+        "amore"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-19",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Non cerco il principe azzurro. Mi basta una persona che sappia usare il calendario condiviso.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-20",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "La complicità è ridere della stessa cosa. Preferibilmente senza dover spiegare perché.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-21",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "A una certa età il romanticismo è anche qualcuno che ti lascia dormire.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-22",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Amarsi è bellissimo. Avere ognuno il proprio caricatore rende tutto più stabile.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-23",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Le coppie solide non litigano meno. Hanno solo sviluppato una migliore gestione delle pause.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-24",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Il vero gesto romantico è ricordarsi una cosa che avevo detto senza che debba ricordarti di ricordarla.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-25",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Non ho bisogno di essere completata. Sono già intera. Al massimo apprezzo una buona compagnia e qualcuno che prenoti.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-26",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "L’amore adulto è meno fuochi d’artificio e più “ti ho lasciato l’ultima fetta”.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "amore"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-27",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Le relazioni felici hanno molte regole. La prima, probabilmente, è non chiedere “che hai?” quando sai benissimo che cosa ho.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-28",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "La passione è importante. Anche dividere equamente le incombenze ha un suo sorprendente erotismo.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-29",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Volersi bene è anche rispettare quel momento in cui l’altro non vuole parlare. Soprattutto prima del caffè.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "caffè"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    },
+    {
+      "id": "AMOR-30",
+      "categoria": "amore_coppia_relazioni",
+      "testo": "Mi piace l’amore semplice: presenza, ironia e nessun bisogno di interpretare messaggi come fossero manoscritti medievali.",
+      "fonte": "nuova_banca_v2",
+      "gia_usata": false,
+      "attiva_per_suggerimenti": true,
+      "stili_consigliati": [
+        "Editoriale",
+        "Minimal",
+        "Highlight"
+      ],
+      "tags": [
+        "amore"
+      ],
+      "formati": [
+        "story_9_16",
+        "post_4_5",
+        "post_1_1",
+        "post_3_4"
+      ]
+    }
+  ]
+}

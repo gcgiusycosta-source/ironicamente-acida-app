@@ -40,7 +40,7 @@
   document.addEventListener('DOMContentLoaded', init);
   async function init() {
     await IADB.open();
-    signatureImage = await loadImage('./assets/signature.svg').catch(()=>null);
+    signatureImage = await loadImage('./signature.svg').catch(()=>null);
     defaults.filter = await IADB.metaGet('default_filter','soft');
     defaults.format = await IADB.metaGet('default_format','story');
     await seedStarter(false);
@@ -58,7 +58,7 @@
   async function seedStarter(forceMerge=false) {
     const seedVersion = await IADB.metaGet('starter_seed_version',0);
     if (seedVersion >= 2 && !forceMerge) return;
-    const p = await fetch('./data/phrases.json').then(r=>r.json());
+    const p = await fetch('./phrases.json').then(r=>r.json());
     const currentPhrases = await IADB.getAll('phrases');
     const phraseByText = new Map(currentPhrases.map(x=>[normalize(x.text),x]));
     const normalizedP = (p.entries||[]).map(e => ({
@@ -69,12 +69,12 @@
     const addP = normalizedP.filter(e=>!phraseByText.has(normalize(e.text)));
     if (addP.length) await IADB.bulkPut('phrases', addP);
 
-    const sm = await fetch('./data/stickers.json').then(r=>r.json());
+    const sm = await fetch('./stickers.json').then(r=>r.json());
     const currentStickers = await IADB.getAll('stickers');
     const stickerKeys = new Set(currentStickers.map(x=>`${normalize(x.title)}|${x.style||''}`));
     const addS = (sm.stickers||[]).map(s=>({
       id:s.id || uid('stk'), title:s.title || 'Sticker', category:s.category || 'Importati', style:s.style || 'starter', tags:s.tags||[], favorite:false, active:s.active!==false,
-      src:`./assets/stickers/${s.file}`, sourceType:'starter', source:'Starter Pack 48', createdAt:nowISO(), updatedAt:nowISO()
+      src:`./${s.file}`, sourceType:'starter', source:'Starter Pack 48', createdAt:nowISO(), updatedAt:nowISO()
     })).filter(s=>!stickerKeys.has(`${normalize(s.title)}|${s.style||''}`));
     if (addS.length) await IADB.bulkPut('stickers', addS);
     await IADB.metaSet('starter_seed_version',2);

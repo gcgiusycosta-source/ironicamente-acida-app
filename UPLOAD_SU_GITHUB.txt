@@ -1,0 +1,10 @@
+IRONICAMENTE ACIDA - VERSIONE FLAT PER GITHUB
+
+Questa cartella NON contiene sottocartelle.
+1. Apri il repository GitHub.
+2. Add file > Upload files.
+3. Trascina TUTTI i file presenti qui dentro insieme.
+4. Commit changes.
+5. Attendi GitHub Pages 1-3 minuti.
+6. Su iPhone apri il sito in Safari e ricarica.
+7. Se avevi già aggiunto la vecchia app alla Home, eliminala e aggiungila di nuovo per aggiornare l'icona.
