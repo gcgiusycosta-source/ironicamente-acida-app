@@ -10,7 +10,7 @@
   <title>Ironicamente Acida</title>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css?v=11" />
 </head>
 <body>
   <div id="splash" class="splash">
@@ -76,9 +76,15 @@
       </section>
 
       <section class="screen editor-screen" data-screen="editor">
+        <button class="editor-exit" id="editor-discard" aria-label="Chiudi questa composizione">×</button>
         <div class="editor-main">
           <div class="canvas-shell" id="canvas-shell"><canvas id="design-canvas" width="1080" height="1920"></canvas></div>
           <div class="selection-hint" id="selection-hint">Tocca un elemento aggiunto per selezionarlo.</div>
+          <div class="selection-toolbar hidden" id="selection-toolbar">
+            <span id="selection-label">Elemento selezionato</span>
+            <button class="selection-edit" id="selection-edit">Regola</button>
+            <button class="selection-delete" id="selection-delete" aria-label="Elimina elemento">⌫</button>
+          </div>
         </div>
         <div class="editor-controls">
           <div class="tool-tabs" id="tool-tabs">
@@ -115,12 +121,15 @@
               <label class="range-row">Intensità <input id="filter-intensity" type="range" min="0" max="100" value="85"><output>85%</output></label>
             </div>
             <div class="tool-panel" data-panel="text">
-              <div class="section-heading compact"><h3>Testo</h3><button class="text-button" id="choose-phrase">Banca frasi</button></div>
+              <div class="section-heading compact"><h3>Testo</h3><button class="text-button" id="choose-phrase">Frasi</button></div>
               <textarea id="phrase-input" rows="4" placeholder="Scrivi la tua frase…"></textarea>
               <input id="highlight-input" class="field" placeholder="Parte da evidenziare (opzionale)" />
               <div class="inline-options" id="text-tone"><button class="selected" data-value="dark">Scuro</button><button data-value="light">Chiaro</button></div>
+              <div class="inline-options" id="text-align"><button data-value="left">Sinistra</button><button class="selected" data-value="center">Centro</button><button data-value="right">Destra</button></div>
+              <label class="range-row">Orizzontale <input id="text-x" type="range" min="6" max="94" value="50"><output>50%</output></label>
+              <label class="range-row">Verticale <input id="text-y" type="range" min="10" max="85" value="22"><output>22%</output></label>
               <label class="range-row">Dimensione <input id="text-size" type="range" min="44" max="132" value="82"><output>82</output></label>
-              <label class="checkbox-row"><input id="save-manual-phrase" type="checkbox"> Salva anche questa frase nella banca</label>
+              <label class="checkbox-row"><input id="save-manual-phrase" type="checkbox"> Salva anche questa frase in Frasi</label>
             </div>
             <div class="tool-panel" data-panel="style">
               <h3 id="style-panel-title">Stile</h3>
@@ -136,12 +145,14 @@
               <div class="section-heading compact"><h3>Sticker</h3><button class="text-button" id="go-sticker-library">Libreria completa</button></div>
               <div id="editor-sticker-cats" class="horizontal-chips"></div>
               <div id="editor-sticker-grid" class="sticker-grid small-grid"></div>
+              <div id="sticker-layer-controls" class="layer-controls empty-state">Tocca uno sticker inserito per regolarlo o eliminarlo.</div>
             </div>
             <div class="tool-panel" data-panel="signature">
               <h3>Firma</h3>
               <label class="switch-row"><span>Firma automatica</span><input id="signature-enabled" type="checkbox" checked></label>
               <div class="inline-options" id="signature-position"><button data-value="left">Sinistra</button><button class="selected" data-value="center">Centro</button><button data-value="right">Destra</button></div>
-              <label class="range-row">Dimensione <input id="signature-size" type="range" min="45" max="120" value="78"><output>78%</output></label>
+              <label class="range-row">Dimensione <input id="signature-size" type="range" min="55" max="180" value="100"><output>100%</output></label>
+              <label class="range-row">Altezza <input id="signature-y" type="range" min="72" max="97" value="94"><output>94%</output></label>
             </div>
           </div>
         </div>
@@ -153,7 +164,7 @@
       </section>
 
       <section class="screen" data-screen="phrases">
-        <div class="screen-title row-title"><div><p class="eyebrow">CONTENT MANAGER</p><h1>Banca frasi</h1></div><button class="round-add" id="new-phrase">＋</button></div>
+        <div class="screen-title row-title"><div><p class="eyebrow">CONTENT MANAGER</p><h1>Frasi</h1></div><button class="round-add" id="new-phrase">＋</button></div>
         <div class="search-box"><span>⌕</span><input id="phrase-search" type="search" placeholder="Cerca una frase…"></div>
         <div class="segmented" id="phrase-status-tabs"><button class="selected" data-status="available">Da usare</button><button data-status="used">Già usate</button><button data-status="favorite">Preferite</button></div>
         <div id="phrase-category-chips" class="horizontal-chips"></div>
@@ -218,6 +229,6 @@
 
   <script src="./db.js"></script>
   <script src="./zip.js"></script>
-  <script src="./app.js"></script>
+  <script src="./app.js?v=11"></script>
 </body>
 </html>

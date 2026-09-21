@@ -1,0 +1,10 @@
+IRONICAMENTE ACIDA — PATCH TECNICA V1.1
+
+1. Estrai questo ZIP.
+2. Nel repository GitHub: Add file > Upload files.
+3. Carica i file contenuti nella cartella (tutti allo stesso livello).
+4. Conferma la sostituzione dei file esistenti e fai Commit changes.
+5. Attendi 1-2 minuti.
+6. Su iPhone apri il sito in Safari e aggiorna due volte. Se usi l'icona Home già installata, eliminala e aggiungila di nuovo per vedere la nuova icona col cerchio.
+
+Non caricare ISTRUZIONI.txt se non vuoi: non serve all'app.

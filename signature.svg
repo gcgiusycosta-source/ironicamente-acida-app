@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160">
-  <rect width="640" height="160" fill="none"/>
-  <g transform="translate(278 6)">
-    <path d="M40 18C19-8-20 4-20 38c0 39 60 75 60 75s60-36 60-75C100 4 61-8 40 18z" fill="#E65F22"/>
-    <rect x="38" y="13" width="4" height="104" fill="#F6F1EA"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 170">
+  <rect width="720" height="170" fill="none"/>
+  <g transform="translate(360 38) scale(.48)">
+    <path d="M0 0C-18-24-55-14-55 16c0 34 55 65 55 65s55-31 55-65C55-14 18-24 0 0z" fill="#E65F22"/>
+    <rect x="-2" y="-4" width="4" height="88" fill="#F6F1EA"/>
   </g>
-  <line x1="74" y1="121" x2="210" y2="121" stroke="#D8C5B6" stroke-width="2"/>
-  <line x1="430" y1="121" x2="566" y2="121" stroke="#D8C5B6" stroke-width="2"/>
-  <text x="320" y="132" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#21110D">ironicamente <tspan font-style="italic">acida</tspan></text>
+  <line x1="70" y1="137" x2="235" y2="137" stroke="#D8C5B6" stroke-width="2"/>
+  <line x1="485" y1="137" x2="650" y2="137" stroke="#D8C5B6" stroke-width="2"/>
+  <text x="360" y="149" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#21110D">ironicamente <tspan font-style="italic">acida</tspan></text>
 </svg>
