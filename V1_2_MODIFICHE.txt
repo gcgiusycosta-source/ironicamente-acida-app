@@ -1,0 +1,23 @@
+IRONICAMENTE ACIDA – V1.2
+
+Modifiche mirate all’editor, senza variazioni a Home, Frasi, Sticker, Progetti o Impostazioni.
+
+FOTO
+- modalità Riempi / Foto intera
+- zoom più ampio
+- riposizionamento con slider
+- trascinamento diretto della foto con il dito quando è aperto lo strumento Foto
+- pulsante di reset posizione
+
+TESTO
+- trascinamento diretto della frase sul canvas quando è aperto lo strumento Testo
+- 6 famiglie di scrittura
+- normale / grassetto / corsivo
+- palette colori + selettore colore libero
+- dimensione 28–190
+- larghezza del blocco testo
+- interlinea regolabile
+- allineamento sinistra / centro / destra
+- posizione X/Y ancora regolabile con slider
+
+Tutto il resto dell’app resta invariato.

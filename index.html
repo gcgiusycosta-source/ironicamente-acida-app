@@ -10,7 +10,7 @@
   <title>Ironicamente Acida</title>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-  <link rel="stylesheet" href="./styles.css?v=11" />
+  <link rel="stylesheet" href="./styles.css?v=13" />
 </head>
 <body>
   <div id="splash" class="splash">
@@ -100,7 +100,8 @@
           <div class="tool-body">
             <div class="tool-panel active" data-panel="format">
               <h3>Formato</h3>
-              <div class="option-grid four" id="format-options">
+              <div class="option-grid format-grid" id="format-options">
+                <button class="format-original" data-value="original" data-photo-original>Originale<small>Nessun taglio</small></button>
                 <button class="selected" data-value="story">9:16<small>Story</small></button>
                 <button data-value="post45">4:5<small>Post</small></button>
                 <button data-value="post34">3:4<small>Post</small></button>
@@ -109,9 +110,12 @@
             </div>
             <div class="tool-panel" data-panel="photo">
               <div class="section-heading compact"><h3>Foto principale</h3><button class="text-button" id="replace-photo">Sostituisci</button></div>
-              <label class="range-row">Zoom <input id="photo-zoom" type="range" min="1" max="2.8" step="0.01" value="1"><output>100%</output></label>
+              <p class="tool-tip">Tocca e trascina direttamente la foto per riposizionarla.</p>
+              <div class="inline-options" id="photo-fit"><button class="selected" data-value="cover">Riempi</button><button data-value="contain">Foto intera</button></div>
+              <label class="range-row">Zoom <input id="photo-zoom" type="range" min="0.5" max="3.5" step="0.01" value="1"><output>100%</output></label>
               <label class="range-row">Orizzontale <input id="photo-x" type="range" min="-1" max="1" step="0.01" value="0"><output>0</output></label>
               <label class="range-row">Verticale <input id="photo-y" type="range" min="-1" max="1" step="0.01" value="0"><output>0</output></label>
+              <button class="secondary-button full" id="photo-reset">Reimposta posizione foto</button>
             </div>
             <div class="tool-panel" data-panel="filter">
               <h3>Filtro</h3>
@@ -122,13 +126,38 @@
             </div>
             <div class="tool-panel" data-panel="text">
               <div class="section-heading compact"><h3>Testo</h3><button class="text-button" id="choose-phrase">Frasi</button></div>
+              <p class="tool-tip">Puoi trascinare la frase direttamente sull’immagine.</p>
               <textarea id="phrase-input" rows="4" placeholder="Scrivi la tua frase…"></textarea>
               <input id="highlight-input" class="field" placeholder="Parte da evidenziare (opzionale)" />
-              <div class="inline-options" id="text-tone"><button class="selected" data-value="dark">Scuro</button><button data-value="light">Chiaro</button></div>
+              <label class="editor-field-label">Scrittura
+                <select id="text-font" class="field">
+                  <option value="editorial">Editoriale</option>
+                  <option value="classic">Classica</option>
+                  <option value="elegant">Elegante</option>
+                  <option value="clean">Pulita</option>
+                  <option value="modern">Moderna</option>
+                  <option value="handwritten">Corsiva</option>
+                </select>
+              </label>
+              <div class="inline-options" id="text-weight"><button class="selected" data-value="normal">Normale</button><button data-value="bold">Grassetto</button><button id="text-italic-toggle" data-value="italic">Corsivo</button></div>
+              <div class="editor-field-label">Colore</div>
+              <div class="text-color-row">
+                <div class="color-presets" id="text-color-presets">
+                  <button data-color="#21110D" class="selected" style="--swatch:#21110D" aria-label="Marrone scuro"></button>
+                  <button data-color="#000000" style="--swatch:#000000" aria-label="Nero"></button>
+                  <button data-color="#FFFFFF" style="--swatch:#FFFFFF" aria-label="Bianco"></button>
+                  <button data-color="#E65F22" style="--swatch:#E65F22" aria-label="Arancio"></button>
+                  <button data-color="#8D4B3E" style="--swatch:#8D4B3E" aria-label="Terracotta"></button>
+                  <button data-color="#6D625C" style="--swatch:#6D625C" aria-label="Tortora"></button>
+                </div>
+                <label class="custom-color">Altro <input id="text-color" type="color" value="#21110D"></label>
+              </div>
               <div class="inline-options" id="text-align"><button data-value="left">Sinistra</button><button class="selected" data-value="center">Centro</button><button data-value="right">Destra</button></div>
-              <label class="range-row">Orizzontale <input id="text-x" type="range" min="6" max="94" value="50"><output>50%</output></label>
-              <label class="range-row">Verticale <input id="text-y" type="range" min="10" max="85" value="22"><output>22%</output></label>
-              <label class="range-row">Dimensione <input id="text-size" type="range" min="44" max="132" value="82"><output>82</output></label>
+              <label class="range-row">Orizzontale <input id="text-x" type="range" min="4" max="96" value="50"><output>50%</output></label>
+              <label class="range-row">Verticale <input id="text-y" type="range" min="6" max="92" value="22"><output>22%</output></label>
+              <label class="range-row">Dimensione <input id="text-size" type="range" min="28" max="190" value="82"><output>82</output></label>
+              <label class="range-row">Larghezza <input id="text-width" type="range" min="38" max="92" value="78"><output>78%</output></label>
+              <label class="range-row">Interlinea <input id="text-line-height" type="range" min="90" max="165" value="123"><output>123%</output></label>
               <label class="checkbox-row"><input id="save-manual-phrase" type="checkbox"> Salva anche questa frase in Frasi</label>
             </div>
             <div class="tool-panel" data-panel="style">
@@ -229,6 +258,6 @@
 
   <script src="./db.js"></script>
   <script src="./zip.js"></script>
-  <script src="./app.js?v=11"></script>
+  <script src="./app.js?v=13"></script>
 </body>
 </html>

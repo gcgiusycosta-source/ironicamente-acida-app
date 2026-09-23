@@ -1,0 +1,8 @@
+IRONICAMENTE ACIDA V1.3 — FORMATO FOTO ORIGINALE
+
+- Nuova opzione Formato > Originale (nessun taglio).
+- Le nuove fotografie si aprono di default nel loro rapporto naturale.
+- Il formato Originale mantiene orientamento e proporzioni della foto.
+- Se si passa a Story/Post/Quadrato, il ritaglio resta controllabile con Riempi/Foto intera, zoom e posizione.
+- Il lato lungo del formato originale è ottimizzato fino a 1920 px per evitare rallentamenti su iPhone.
+- Nessuna modifica a Home, Frasi, Sticker, Progetti o Impostazioni.
