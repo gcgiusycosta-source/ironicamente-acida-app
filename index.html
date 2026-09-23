@@ -10,7 +10,7 @@
   <title>Ironicamente Acida</title>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-  <link rel="stylesheet" href="./styles.css?v=13" />
+  <link rel="stylesheet" href="./styles.css?v=20" />
 </head>
 <body>
   <div id="splash" class="splash">
@@ -43,8 +43,8 @@
           </button>
           <button class="creation-card primary" id="home-photo">
             <span class="creation-icon">▧</span>
-            <strong>Crea da foto</strong>
-            <small>Foto + filtro + frase + sticker</small>
+            <strong>Crea da foto o video</strong>
+            <small>Media + look + testo + sticker</small>
           </button>
         </div>
         <div class="home-shortcuts">
@@ -76,99 +76,89 @@
       </section>
 
       <section class="screen editor-screen" data-screen="editor">
-        <button class="editor-exit" id="editor-discard" aria-label="Chiudi questa composizione">×</button>
+        <div class="editor-topbar">
+          <button class="editor-exit" id="editor-discard" aria-label="Chiudi questa composizione">×</button>
+          <div class="editor-history"><button id="editor-undo" aria-label="Annulla">↶</button><button id="editor-redo" aria-label="Ripeti">↷</button></div>
+          <div class="editor-status" id="editor-status">Foto · Acida Soft · Originale</div>
+        </div>
         <div class="editor-main">
-          <div class="canvas-shell" id="canvas-shell"><canvas id="design-canvas" width="1080" height="1920"></canvas></div>
-          <div class="selection-hint" id="selection-hint">Tocca un elemento aggiunto per selezionarlo.</div>
+          <video id="source-video" playsinline preload="metadata" hidden></video>
+          <div class="canvas-shell" id="canvas-shell"><canvas id="design-canvas" width="1080" height="1080"></canvas></div>
+          <div class="video-playbar hidden" id="video-playbar"><button id="video-play">▶</button><span id="video-time">0:00</span><input id="video-scrub" type="range" min="0" max="1" step="0.01" value="0"><span id="video-duration">0:00</span></div>
+          <div class="selection-hint" id="selection-hint">Tocca un elemento per selezionarlo. Trascina testo, sticker o media direttamente.</div>
           <div class="selection-toolbar hidden" id="selection-toolbar">
             <span id="selection-label">Elemento selezionato</span>
             <button class="selection-edit" id="selection-edit">Regola</button>
             <button class="selection-delete" id="selection-delete" aria-label="Elimina elemento">⌫</button>
           </div>
         </div>
-        <div class="editor-controls">
-          <div class="tool-tabs" id="tool-tabs">
-            <button class="selected" data-tool="format"><span>▣</span>Formato</button>
-            <button data-tool="photo" data-photo-only><span>▧</span>Foto</button>
-            <button data-tool="filter" data-photo-only><span>◉</span>Filtro</button>
+        <div class="editor-controls v2-controls">
+          <div class="tool-tabs v2-tabs" id="tool-tabs">
+            <button class="selected" data-tool="media"><span>▧</span>Media</button>
+            <button data-tool="look" data-media-only><span>◉</span>Look</button>
+            <button data-tool="adjust" data-media-only><span>≋</span>Regola</button>
             <button data-tool="text"><span>Aa</span>Testo</button>
-            <button data-tool="style"><span>✦</span>Stile</button>
-            <button data-tool="image" data-photo-only><span>▤</span>Immagine</button>
-            <button data-tool="sticker" data-photo-only><span>♡</span>Sticker</button>
+            <button data-tool="sticker" data-media-only><span>♡</span>Sticker</button>
             <button data-tool="signature"><span>♥</span>Firma</button>
+            <button data-tool="format"><span>▣</span>Proporzioni</button>
           </div>
           <div class="tool-body">
-            <div class="tool-panel active" data-panel="format">
-              <h3>Formato</h3>
-              <div class="option-grid format-grid" id="format-options">
-                <button class="format-original" data-value="original" data-photo-original>Originale<small>Nessun taglio</small></button>
-                <button class="selected" data-value="story">9:16<small>Story</small></button>
-                <button data-value="post45">4:5<small>Post</small></button>
-                <button data-value="post34">3:4<small>Post</small></button>
-                <button data-value="square">1:1<small>Quadrato</small></button>
-              </div>
-            </div>
-            <div class="tool-panel" data-panel="photo">
-              <div class="section-heading compact"><h3>Foto principale</h3><button class="text-button" id="replace-photo">Sostituisci</button></div>
-              <p class="tool-tip">Tocca e trascina direttamente la foto per riposizionarla.</p>
-              <div class="inline-options" id="photo-fit"><button class="selected" data-value="cover">Riempi</button><button data-value="contain">Foto intera</button></div>
+            <div class="tool-panel active" data-panel="media">
+              <div class="section-heading compact"><h3 id="media-panel-title">Media</h3><button class="text-button" id="replace-media">Sostituisci</button></div>
+              <p class="tool-tip">Trascina direttamente foto o video per riposizionarli.</p>
+              <div class="inline-options" id="photo-fit"><button class="selected" data-value="cover">Riempi</button><button data-value="contain">Adatta</button></div>
               <label class="range-row">Zoom <input id="photo-zoom" type="range" min="0.5" max="3.5" step="0.01" value="1"><output>100%</output></label>
               <label class="range-row">Orizzontale <input id="photo-x" type="range" min="-1" max="1" step="0.01" value="0"><output>0</output></label>
               <label class="range-row">Verticale <input id="photo-y" type="range" min="-1" max="1" step="0.01" value="0"><output>0</output></label>
-              <button class="secondary-button full" id="photo-reset">Reimposta posizione foto</button>
+              <button class="secondary-button full" id="photo-reset">Reimposta posizione</button>
+              <div id="video-controls" class="video-controls hidden">
+                <label class="range-row">Inizio <input id="video-trim-start" type="range" min="0" max="1" step="0.1" value="0"><output>0:00</output></label>
+                <label class="range-row">Fine <input id="video-trim-end" type="range" min="0" max="1" step="0.1" value="1"><output>0:00</output></label>
+                <label class="switch-row"><span>Audio nel video</span><input id="video-audio" type="checkbox" checked></label>
+              </div>
+              <div class="section-heading compact media-overlay-head"><h3>Immagini aggiunte</h3><button class="text-button" id="add-image">+ Aggiungi</button></div>
+              <div id="layer-controls" class="layer-controls empty-state">Nessun elemento selezionato.</div>
             </div>
-            <div class="tool-panel" data-panel="filter">
-              <h3>Filtro</h3>
-              <div class="filter-options" id="filter-options">
-                <button data-value="original">Originale</button><button class="selected" data-value="soft">Acida Soft</button><button data-value="warm">Acida Warm</button><button data-value="neutral">Neutro</button>
+            <div class="tool-panel" data-panel="look">
+              <div class="section-heading compact"><h3>Look</h3><button class="text-button compare-button" id="compare-original">Prima / dopo</button></div>
+              <p class="tool-tip">Preset delicati. Regola l’intensità senza perdere la fotografia.</p>
+              <div class="look-options" id="filter-options">
+                <button data-value="original"><i class="look-preview look-original"></i><b>Originale</b></button>
+                <button class="selected" data-value="soft"><i class="look-preview look-soft"></i><b>Acida Soft</b></button>
+                <button data-value="warm"><i class="look-preview look-warm"></i><b>Acida Warm</b></button>
+                <button data-value="neutral"><i class="look-preview look-neutral"></i><b>Neutro</b></button>
               </div>
               <label class="range-row">Intensità <input id="filter-intensity" type="range" min="0" max="100" value="85"><output>85%</output></label>
             </div>
+            <div class="tool-panel" data-panel="adjust">
+              <div class="section-heading compact"><h3>Regola</h3><button class="text-button" id="adjust-reset">Reimposta</button></div>
+              <div class="adjust-grid">
+                <label>Esposizione<input id="adj-exposure" type="range" min="-100" max="100" value="0"><output>0</output></label>
+                <label>Contrasto<input id="adj-contrast" type="range" min="-100" max="100" value="0"><output>0</output></label>
+                <label>Alte luci<input id="adj-highlights" type="range" min="-100" max="100" value="0"><output>0</output></label>
+                <label>Ombre<input id="adj-shadows" type="range" min="-100" max="100" value="0"><output>0</output></label>
+                <label>Temperatura<input id="adj-temperature" type="range" min="-100" max="100" value="0"><output>0</output></label>
+                <label>Saturazione<input id="adj-saturation" type="range" min="-100" max="100" value="0"><output>0</output></label>
+                <label>Nitidezza<input id="adj-sharpness" type="range" min="-100" max="100" value="0"><output>0</output></label>
+                <label>Vignettatura<input id="adj-vignette" type="range" min="0" max="100" value="0"><output>0</output></label>
+              </div>
+            </div>
             <div class="tool-panel" data-panel="text">
               <div class="section-heading compact"><h3>Testo</h3><button class="text-button" id="choose-phrase">Frasi</button></div>
-              <p class="tool-tip">Puoi trascinare la frase direttamente sull’immagine.</p>
+              <p class="tool-tip">Trascina la frase direttamente sulla composizione.</p>
               <textarea id="phrase-input" rows="4" placeholder="Scrivi la tua frase…"></textarea>
               <input id="highlight-input" class="field" placeholder="Parte da evidenziare (opzionale)" />
-              <label class="editor-field-label">Scrittura
-                <select id="text-font" class="field">
-                  <option value="editorial">Editoriale</option>
-                  <option value="classic">Classica</option>
-                  <option value="elegant">Elegante</option>
-                  <option value="clean">Pulita</option>
-                  <option value="modern">Moderna</option>
-                  <option value="handwritten">Corsiva</option>
-                </select>
-              </label>
+              <label class="editor-field-label">Scrittura<select id="text-font" class="field"><option value="editorial">Editoriale</option><option value="classic">Classica</option><option value="elegant">Elegante</option><option value="clean">Pulita</option><option value="modern">Moderna</option><option value="handwritten">Corsiva</option></select></label>
               <div class="inline-options" id="text-weight"><button class="selected" data-value="normal">Normale</button><button data-value="bold">Grassetto</button><button id="text-italic-toggle" data-value="italic">Corsivo</button></div>
               <div class="editor-field-label">Colore</div>
-              <div class="text-color-row">
-                <div class="color-presets" id="text-color-presets">
-                  <button data-color="#21110D" class="selected" style="--swatch:#21110D" aria-label="Marrone scuro"></button>
-                  <button data-color="#000000" style="--swatch:#000000" aria-label="Nero"></button>
-                  <button data-color="#FFFFFF" style="--swatch:#FFFFFF" aria-label="Bianco"></button>
-                  <button data-color="#E65F22" style="--swatch:#E65F22" aria-label="Arancio"></button>
-                  <button data-color="#8D4B3E" style="--swatch:#8D4B3E" aria-label="Terracotta"></button>
-                  <button data-color="#6D625C" style="--swatch:#6D625C" aria-label="Tortora"></button>
-                </div>
-                <label class="custom-color">Altro <input id="text-color" type="color" value="#21110D"></label>
-              </div>
+              <div class="text-color-row"><div class="color-presets" id="text-color-presets"><button data-color="#21110D" class="selected" style="--swatch:#21110D"></button><button data-color="#000000" style="--swatch:#000000"></button><button data-color="#FFFFFF" style="--swatch:#FFFFFF"></button><button data-color="#E65F22" style="--swatch:#E65F22"></button><button data-color="#8D4B3E" style="--swatch:#8D4B3E"></button><button data-color="#6D625C" style="--swatch:#6D625C"></button></div><label class="custom-color">Altro <input id="text-color" type="color" value="#21110D"></label></div>
               <div class="inline-options" id="text-align"><button data-value="left">Sinistra</button><button class="selected" data-value="center">Centro</button><button data-value="right">Destra</button></div>
               <label class="range-row">Orizzontale <input id="text-x" type="range" min="4" max="96" value="50"><output>50%</output></label>
-              <label class="range-row">Verticale <input id="text-y" type="range" min="6" max="92" value="22"><output>22%</output></label>
-              <label class="range-row">Dimensione <input id="text-size" type="range" min="28" max="190" value="82"><output>82</output></label>
-              <label class="range-row">Larghezza <input id="text-width" type="range" min="38" max="92" value="78"><output>78%</output></label>
-              <label class="range-row">Interlinea <input id="text-line-height" type="range" min="90" max="165" value="123"><output>123%</output></label>
+              <label class="range-row">Verticale <input id="text-y" type="range" min="6" max="94" value="22"><output>22%</output></label>
+              <label class="range-row">Dimensione <input id="text-size" type="range" min="24" max="210" value="82"><output>82</output></label>
+              <label class="range-row">Larghezza <input id="text-width" type="range" min="30" max="94" value="78"><output>78%</output></label>
+              <label class="range-row">Interlinea <input id="text-line-height" type="range" min="85" max="180" value="123"><output>123%</output></label>
               <label class="checkbox-row"><input id="save-manual-phrase" type="checkbox"> Salva anche questa frase in Frasi</label>
-            </div>
-            <div class="tool-panel" data-panel="style">
-              <h3 id="style-panel-title">Stile</h3>
-              <div class="option-grid" id="style-options"></div>
-              <p class="muted" id="style-help"></p>
-            </div>
-            <div class="tool-panel" data-panel="image">
-              <div class="section-heading compact"><h3>Immagini aggiunte</h3><button class="text-button" id="add-image">+ Aggiungi</button></div>
-              <p class="muted">Puoi inserire cover, screenshot o altre fotografie. Massimo 5 elementi.</p>
-              <div id="layer-controls" class="layer-controls empty-state">Nessun elemento selezionato.</div>
             </div>
             <div class="tool-panel" data-panel="sticker">
               <div class="section-heading compact"><h3>Sticker</h3><button class="text-button" id="go-sticker-library">Libreria completa</button></div>
@@ -177,18 +167,34 @@
               <div id="sticker-layer-controls" class="layer-controls empty-state">Tocca uno sticker inserito per regolarlo o eliminarlo.</div>
             </div>
             <div class="tool-panel" data-panel="signature">
-              <h3>Firma</h3>
-              <label class="switch-row"><span>Firma automatica</span><input id="signature-enabled" type="checkbox" checked></label>
-              <div class="inline-options" id="signature-position"><button data-value="left">Sinistra</button><button class="selected" data-value="center">Centro</button><button data-value="right">Destra</button></div>
-              <label class="range-row">Dimensione <input id="signature-size" type="range" min="55" max="180" value="100"><output>100%</output></label>
-              <label class="range-row">Altezza <input id="signature-y" type="range" min="72" max="97" value="94"><output>94%</output></label>
+              <div class="section-heading compact"><h3>Firma</h3><button class="text-button" id="signature-remove">Rimuovi</button></div>
+              <label class="switch-row"><span>Aggiungi firma</span><input id="signature-enabled" type="checkbox"></label>
+              <p class="tool-tip">La firma non viene più inserita automaticamente su foto e video.</p>
+              <div id="signature-controls">
+                <div class="inline-options" id="signature-position"><button data-value="left">Sinistra</button><button class="selected" data-value="center">Centro</button><button data-value="right">Destra</button></div>
+                <label class="range-row">Dimensione <input id="signature-size" type="range" min="45" max="190" value="100"><output>100%</output></label>
+                <label class="range-row">Altezza <input id="signature-y" type="range" min="8" max="97" value="92"><output>92%</output></label>
+              </div>
+            </div>
+            <div class="tool-panel" data-panel="format">
+              <h3>Proporzioni</h3>
+              <div class="option-grid format-grid" id="format-options">
+                <button class="selected format-original" data-value="original" data-media-format>Originale<small>Nessun taglio</small></button>
+                <button data-value="ratio43" data-media-format>4:3<small>Segue orientamento</small></button>
+                <button data-value="ratio169" data-media-format>16:9<small>Segue orientamento</small></button>
+                <button data-value="square" data-media-format>1:1<small>Quadrato</small></button>
+                <button data-value="story" data-template-format>9:16<small>Story</small></button>
+                <button data-value="post45" data-template-format>4:5<small>Post</small></button>
+                <button data-value="post34" data-template-format>3:4<small>Post</small></button>
+                <button data-value="square" data-template-format>1:1<small>Quadrato</small></button>
+              </div>
             </div>
           </div>
         </div>
         <div class="editor-footer">
           <button class="secondary-button" id="preview-button">Anteprima</button>
           <button class="secondary-button" id="save-project-button">Salva progetto</button>
-          <button class="big-button compact" id="export-button">Salva immagine</button>
+          <button class="big-button compact" id="export-button">Esporta</button>
         </div>
       </section>
 
@@ -204,7 +210,7 @@
       <section class="screen" data-screen="stickers">
         <div class="screen-title row-title"><div><p class="eyebrow">CONTENT MANAGER</p><h1>Libreria sticker</h1></div><button class="round-add" id="new-sticker">＋</button></div>
         <div class="search-box"><span>⌕</span><input id="sticker-search" type="search" placeholder="Cerca uno sticker…"></div>
-        <div id="sticker-category-chips" class="horizontal-chips"></div>
+        <div id="sticker-category-chips" class="horizontal-chips"></div><div id="sticker-style-chips" class="horizontal-chips style-chips"></div>
         <div class="content-actions"><button id="import-sticker-zip">⇧ Importa ZIP</button><button id="sticker-favorites">♡ Preferiti</button></div>
         <div id="sticker-grid" class="sticker-grid"></div>
       </section>
@@ -219,7 +225,7 @@
         <div class="settings-stack">
           <section class="panel-card"><h2>Predefiniti</h2>
             <label class="select-row">Filtro foto <select id="default-filter"><option value="soft">Acida Soft</option><option value="warm">Acida Warm</option><option value="neutral">Neutro</option><option value="original">Originale</option></select></label>
-            <label class="select-row">Formato <select id="default-format"><option value="story">Story 9:16</option><option value="post45">Post 4:5</option><option value="post34">Post 3:4</option><option value="square">Quadrato 1:1</option></select></label>
+            <label class="select-row">Proporzioni <select id="default-format"><option value="original">Originale</option><option value="ratio43">4:3</option><option value="ratio169">16:9</option><option value="square">1:1</option></select></label>
           </section>
           <section class="panel-card"><h2>Contenuti</h2>
             <button class="settings-action" data-nav="phrases"><span>“</span><div><b>Gestisci frasi</b><small>Aggiungi, modifica, importa, recupera le usate</small></div><i>›</i></button>
@@ -250,6 +256,7 @@
   <div class="toast" id="toast"></div>
 
   <input id="photo-file" type="file" accept="image/*" hidden>
+  <input id="video-file" type="file" accept="video/*" hidden>
   <input id="overlay-file" type="file" accept="image/*" hidden>
   <input id="sticker-file" type="file" accept="image/png,image/webp,image/jpeg" hidden>
   <input id="sticker-zip-file" type="file" accept=".zip,application/zip" hidden>
@@ -258,6 +265,6 @@
 
   <script src="./db.js"></script>
   <script src="./zip.js"></script>
-  <script src="./app.js?v=13"></script>
+  <script src="./app.js?v=20"></script>
 </body>
 </html>

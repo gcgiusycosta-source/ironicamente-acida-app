@@ -1,0 +1,31 @@
+IRONICAMENTE ACIDA — V2 EDITOR
+QA build: 23/09/2026
+
+CONTROLLI ESEGUITI
+- app.js: sintassi JavaScript verificata con node --check
+- db.js: sintassi verificata
+- sw.js: sintassi verificata
+- zip.js: sintassi verificata
+- phrases.json, stickers.json e manifest.webmanifest: JSON valido
+- Sticker Master V2: 82 sticker unici, 82 file presenti
+- ID HTML: nessun duplicato
+- File core del Service Worker: tutti presenti
+- Build GitHub: struttura FLAT, nessuna cartella obbligatoria
+
+FUNZIONI V2
+- Foto + Video nello stesso editor
+- Filtro automatico Acida Soft (modificabile dalle Impostazioni)
+- Look: Originale / Acida Soft / Acida Warm / Neutro
+- Intensità look 0–100
+- Regolazioni manuali: esposizione, contrasto, alte luci, ombre, temperatura, saturazione, nitidezza, vignettatura
+- Proporzioni media: Originale / 4:3 / 16:9 / 1:1
+- 4:3 e 16:9 seguono automaticamente orientamento verticale/orizzontale del media
+- Testo: font, colore, dimensione, grassetto, corsivo, allineamento, posizione, larghezza, interlinea
+- Sticker: 82 asset V2, categorie + stili, spostamento, rotazione, ridimensionamento, opacità, livelli, duplicazione, eliminazione
+- Firma: opzionale su foto/video; nuovo wordmark con cuore nel cerchio
+- Video: trim inizio/fine, audio on/off, filtro, testo, sticker, firma, export MediaRecorder
+- Undo/Redo
+- Salvataggio progetto locale, inclusi video tramite Blob in IndexedDB
+
+COLLAUDO ANCORA NECESSARIO SU DISPOSITIVO
+L'esportazione video usa le API multimediali del browser. La build sceglie MP4 quando il browser/iPhone lo supporta e usa WebM come fallback. Il comportamento reale dell'export e del salvataggio in iOS deve essere collaudato sul tuo iPhone prima di considerare definitiva la V2.

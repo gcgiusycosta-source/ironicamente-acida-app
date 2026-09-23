@@ -1,670 +1,1245 @@
 {
-  "pack_name": "Ironicamente Acida Stickers Master",
-  "version": "1.0",
-  "count": 48,
+  "pack_name": "Ironicamente Acida Sticker Master V2",
+  "version": "2.0",
+  "count": 82,
   "stickers": [
     {
-      "id": "stk_001",
-      "title": "Good Morning",
+      "id": "ia_stk_001",
+      "title": "Good morning",
       "category": "Saluti",
-      "style": "brand_clean",
+      "style": "Brand Clean",
       "tags": [
-        "morning",
-        "good morning"
-      ],
-      "file": "sticker_stk_001.webp",
-      "sha256_16": "9337604948c00f30",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_002",
-      "title": "Good Afternoon",
-      "category": "Saluti",
-      "style": "brand_clean",
-      "tags": [
-        "afternoon",
-        "good afternoon"
-      ],
-      "file": "sticker_stk_002.webp",
-      "sha256_16": "18ffa0d17b80962c",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_003",
-      "title": "Good Evening",
-      "category": "Saluti",
-      "style": "brand_clean",
-      "tags": [
-        "evening",
-        "good evening"
-      ],
-      "file": "sticker_stk_003.webp",
-      "sha256_16": "e4cebb4a40eac908",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_004",
-      "title": "Good Night",
-      "category": "Saluti",
-      "style": "brand_clean",
-      "tags": [
-        "night",
-        "good night"
-      ],
-      "file": "sticker_stk_004.webp",
-      "sha256_16": "99d5d69459c282f5",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_005",
-      "title": "Spring",
-      "category": "Stagioni",
-      "style": "brand_clean",
-      "tags": [
-        "spring"
-      ],
-      "file": "sticker_stk_005.webp",
-      "sha256_16": "79f072d4e34e1609",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_006",
-      "title": "Summer",
-      "category": "Stagioni",
-      "style": "brand_clean",
-      "tags": [
-        "summer"
-      ],
-      "file": "sticker_stk_006.webp",
-      "sha256_16": "0dd79b11aa69f28e",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_007",
-      "title": "Autumn",
-      "category": "Stagioni",
-      "style": "brand_clean",
-      "tags": [
-        "autumn"
-      ],
-      "file": "sticker_stk_007.webp",
-      "sha256_16": "a6cb8883713c0a9b",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_008",
-      "title": "Winter",
-      "category": "Stagioni",
-      "style": "brand_clean",
-      "tags": [
-        "winter"
-      ],
-      "file": "sticker_stk_008.webp",
-      "sha256_16": "a40e2331d31f8a27",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_009",
-      "title": "With My Little Boy",
-      "category": "Maternità",
-      "style": "brand_clean",
-      "tags": [
-        "boy",
-        "family",
-        "motherhood"
-      ],
-      "file": "sticker_stk_009.webp",
-      "sha256_16": "e852b3d8211b7d16",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_010",
-      "title": "Mama Mode",
-      "category": "Maternità",
-      "style": "brand_clean",
-      "tags": [
-        "mama",
-        "motherhood"
-      ],
-      "file": "sticker_stk_010.webp",
-      "sha256_16": "3cdd6dd7c2282ab1",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_011",
-      "title": "Court Day",
-      "category": "Avvocato",
-      "style": "brand_clean",
-      "tags": [
-        "court",
-        "lawyer",
-        "work"
-      ],
-      "file": "sticker_stk_011.webp",
-      "sha256_16": "ec911910c5584531",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_012",
-      "title": "Lawyer Mode",
-      "category": "Avvocato",
-      "style": "brand_clean",
-      "tags": [
-        "lawyer",
-        "work"
-      ],
-      "file": "sticker_stk_012.webp",
-      "sha256_16": "d2e4a0322036724a",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_013",
-      "title": "Legal Notes",
-      "category": "Avvocato",
-      "style": "brand_clean",
-      "tags": [
-        "legal",
-        "notes",
-        "work"
-      ],
-      "file": "sticker_stk_013.webp",
-      "sha256_16": "48e8717d1673d06b",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_014",
-      "title": "Office Day",
-      "category": "Avvocato",
-      "style": "brand_clean",
-      "tags": [
-        "office",
-        "work"
-      ],
-      "file": "sticker_stk_014.webp",
-      "sha256_16": "2187c3c4725b57a6",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_015",
-      "title": "Coffee First",
-      "category": "Lifestyle",
-      "style": "brand_clean",
-      "tags": [
-        "coffee",
+        "saluti",
+        "brand-clean",
+        "good",
         "morning"
       ],
-      "file": "sticker_stk_015.webp",
-      "sha256_16": "658e8b1abb57a5e7",
+      "file": "ia_stk_001_good-morning.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_016",
-      "title": "Currently Reading",
-      "category": "Libri",
-      "style": "brand_clean",
-      "tags": [
-        "reading",
-        "books"
-      ],
-      "file": "sticker_stk_016.webp",
-      "sha256_16": "6d31898a3dc6d497",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_017",
-      "title": "My Little Boy",
-      "category": "Maternità",
-      "style": "bold_badge",
-      "tags": [
-        "boy",
-        "family"
-      ],
-      "file": "sticker_stk_017.webp",
-      "sha256_16": "bd6ec4232c25566e",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_018",
-      "title": "Vita da avvocato",
-      "category": "Avvocato",
-      "style": "bold_badge",
-      "tags": [
-        "lawyer",
-        "work"
-      ],
-      "file": "sticker_stk_018.webp",
-      "sha256_16": "7a2db2007313e7cd",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_019",
-      "title": "Court Day",
-      "category": "Avvocato",
-      "style": "bold_badge",
-      "tags": [
-        "court",
-        "lawyer"
-      ],
-      "file": "sticker_stk_019.webp",
-      "sha256_16": "c0f0a229304ee22c",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_020",
-      "title": "Legal Notes",
-      "category": "Avvocato",
-      "style": "bold_badge",
-      "tags": [
-        "legal",
-        "notes"
-      ],
-      "file": "sticker_stk_020.webp",
-      "sha256_16": "a2a585a2e664db4c",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_021",
-      "title": "Coffee First",
-      "category": "Lifestyle",
-      "style": "bold_badge",
-      "tags": [
-        "coffee"
-      ],
-      "file": "sticker_stk_021.webp",
-      "sha256_16": "7f3a5f004ee4d64e",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_022",
-      "title": "Reading Time",
-      "category": "Libri",
-      "style": "bold_badge",
-      "tags": [
-        "reading",
-        "books"
-      ],
-      "file": "sticker_stk_022.webp",
-      "sha256_16": "9e2b457f2d466aad",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_023",
-      "title": "Good Morning",
+      "id": "ia_stk_002",
+      "title": "Good afternoon",
       "category": "Saluti",
-      "style": "bold_badge",
+      "style": "Brand Clean",
       "tags": [
-        "morning"
-      ],
-      "file": "sticker_stk_023.webp",
-      "sha256_16": "b1313de0f13fec4e",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_024",
-      "title": "Mom Life",
-      "category": "Maternità",
-      "style": "bold_badge",
-      "tags": [
-        "mom",
-        "motherhood"
-      ],
-      "file": "sticker_stk_024.webp",
-      "sha256_16": "d6f9e6ab8983c87a",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_025",
-      "title": "Little Things",
-      "category": "Lifestyle",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "little things",
-        "life"
-      ],
-      "file": "sticker_stk_025.webp",
-      "sha256_16": "fd66d9b120353dde",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_026",
-      "title": "Life Lately",
-      "category": "Lifestyle",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "life lately",
-        "journal"
-      ],
-      "file": "sticker_stk_026.webp",
-      "sha256_16": "56bb7a417e651f3c",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_027",
-      "title": "Mama & Me",
-      "category": "Maternità",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "mama",
-        "family"
-      ],
-      "file": "sticker_stk_027.webp",
-      "sha256_16": "512e2d7ed934065d",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_028",
-      "title": "Weekend Notes",
-      "category": "Lifestyle",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "weekend",
-        "notes"
-      ],
-      "file": "sticker_stk_028.webp",
-      "sha256_16": "d890269a2a41e00b",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_029",
-      "title": "Life Lately",
-      "category": "Lifestyle",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "life lately",
-        "journal"
-      ],
-      "file": "sticker_stk_029.webp",
-      "sha256_16": "cca3fc0ab390ee4d",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_030",
-      "title": "Currently Reading",
-      "category": "Libri",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "reading",
-        "books"
-      ],
-      "file": "sticker_stk_030.webp",
-      "sha256_16": "01914cee5a3e69d7",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_031",
-      "title": "Weekend Notes",
-      "category": "Lifestyle",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "weekend",
-        "notes"
-      ],
-      "file": "sticker_stk_031.webp",
-      "sha256_16": "ae4d8fa94ea3f139",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_032",
-      "title": "Little Things",
-      "category": "Lifestyle",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "little things",
-        "life"
-      ],
-      "file": "sticker_stk_032.webp",
-      "sha256_16": "4e7ff0b5dc0c3c01",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_033",
-      "title": "Wish You Were Here",
-      "category": "Viaggi",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "travel",
-        "postcard"
-      ],
-      "file": "sticker_stk_033.webp",
-      "sha256_16": "d5268145d64e3dfc",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_034",
-      "title": "My Little Boy",
-      "category": "Maternità",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "boy",
-        "family"
-      ],
-      "file": "sticker_stk_034.webp",
-      "sha256_16": "192aacab106eef8d",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_035",
-      "title": "Book Mail",
-      "category": "Libri",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "books",
-        "mail"
-      ],
-      "file": "sticker_stk_035.webp",
-      "sha256_16": "44dc31de2a26078e",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_036",
-      "title": "Legal Notes",
-      "category": "Avvocato",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "legal",
-        "notes"
-      ],
-      "file": "sticker_stk_036.webp",
-      "sha256_16": "2bdaa7e13cfa60d8",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_037",
-      "title": "Slow Morning",
-      "category": "Saluti",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "morning",
-        "slow"
-      ],
-      "file": "sticker_stk_037.webp",
-      "sha256_16": "70af5c9ec172efee",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_038",
-      "title": "Autumn Mood",
-      "category": "Stagioni",
-      "style": "scrapbook_postcard",
-      "tags": [
-        "autumn",
-        "mood"
-      ],
-      "file": "sticker_stk_038.webp",
-      "sha256_16": "ecbde8eb65b5e53d",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_039",
-      "title": "Good Morning",
-      "category": "Saluti",
-      "style": "white_script",
-      "tags": [
-        "morning"
-      ],
-      "file": "sticker_stk_039.webp",
-      "sha256_16": "805fb4a2da4f98eb",
-      "active": true,
-      "favorite": false
-    },
-    {
-      "id": "stk_040",
-      "title": "Good Afternoon",
-      "category": "Saluti",
-      "style": "white_script",
-      "tags": [
+        "saluti",
+        "brand-clean",
+        "good",
         "afternoon"
       ],
-      "file": "sticker_stk_040.webp",
-      "sha256_16": "2318e2c79be47b6b",
+      "file": "ia_stk_002_good-afternoon.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_041",
-      "title": "Good Evening",
+      "id": "ia_stk_003",
+      "title": "Good evening",
       "category": "Saluti",
-      "style": "white_script",
+      "style": "Brand Clean",
       "tags": [
+        "saluti",
+        "brand-clean",
+        "good",
         "evening"
       ],
-      "file": "sticker_stk_041.webp",
-      "sha256_16": "e4fa69670f3c37c6",
+      "file": "ia_stk_003_good-evening.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_042",
-      "title": "My Little Boy",
-      "category": "Maternità",
-      "style": "white_script",
+      "id": "ia_stk_004",
+      "title": "Good night",
+      "category": "Saluti",
+      "style": "Brand Clean",
       "tags": [
-        "boy",
-        "family"
+        "saluti",
+        "brand-clean",
+        "good",
+        "night"
       ],
-      "file": "sticker_stk_042.webp",
-      "sha256_16": "6b42f10e80680d10",
+      "file": "ia_stk_004_good-night.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_043",
-      "title": "Lawyer Life",
-      "category": "Avvocato",
-      "style": "white_script",
+      "id": "ia_stk_005",
+      "title": "Spring",
+      "category": "Stagioni",
+      "style": "Brand Clean",
       "tags": [
+        "stagioni",
+        "brand-clean",
+        "spring"
+      ],
+      "file": "ia_stk_005_spring.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_006",
+      "title": "Summer",
+      "category": "Stagioni",
+      "style": "Brand Clean",
+      "tags": [
+        "stagioni",
+        "brand-clean",
+        "summer"
+      ],
+      "file": "ia_stk_006_summer.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_007",
+      "title": "Autumn",
+      "category": "Stagioni",
+      "style": "Brand Clean",
+      "tags": [
+        "stagioni",
+        "brand-clean",
+        "autumn"
+      ],
+      "file": "ia_stk_007_autumn.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_008",
+      "title": "Winter",
+      "category": "Stagioni",
+      "style": "Brand Clean",
+      "tags": [
+        "stagioni",
+        "brand-clean",
+        "winter"
+      ],
+      "file": "ia_stk_008_winter.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_009",
+      "title": "With my little boy",
+      "category": "Maternità & Family",
+      "style": "Brand Clean",
+      "tags": [
+        "maternita-family",
+        "brand-clean",
+        "with",
+        "little"
+      ],
+      "file": "ia_stk_009_with-my-little-boy.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_010",
+      "title": "Mama mode",
+      "category": "Maternità & Family",
+      "style": "Brand Clean",
+      "tags": [
+        "maternita-family",
+        "brand-clean",
+        "mama",
+        "mode"
+      ],
+      "file": "ia_stk_010_mama-mode.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_011",
+      "title": "Court day",
+      "category": "Avvocato & Lavoro",
+      "style": "Brand Clean",
+      "tags": [
+        "avvocato-lavoro",
+        "brand-clean",
+        "court"
+      ],
+      "file": "ia_stk_011_court-day.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_012",
+      "title": "Lawyer mode",
+      "category": "Avvocato & Lavoro",
+      "style": "Brand Clean",
+      "tags": [
+        "avvocato-lavoro",
+        "brand-clean",
         "lawyer",
-        "work"
+        "mode"
       ],
-      "file": "sticker_stk_043.webp",
-      "sha256_16": "d391d7a67a1a715b",
+      "file": "ia_stk_012_lawyer-mode.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_044",
-      "title": "Currently Reading",
-      "category": "Libri",
-      "style": "white_script",
+      "id": "ia_stk_013",
+      "title": "Legal notes",
+      "category": "Avvocato & Lavoro",
+      "style": "Brand Clean",
       "tags": [
+        "avvocato-lavoro",
+        "brand-clean",
+        "legal",
+        "notes"
+      ],
+      "file": "ia_stk_013_legal-notes.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_014",
+      "title": "Office day",
+      "category": "Avvocato & Lavoro",
+      "style": "Brand Clean",
+      "tags": [
+        "avvocato-lavoro",
+        "brand-clean",
+        "office"
+      ],
+      "file": "ia_stk_014_office-day.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_015",
+      "title": "Coffee first",
+      "category": "Lifestyle",
+      "style": "Brand Clean",
+      "tags": [
+        "lifestyle",
+        "brand-clean",
+        "coffee",
+        "first"
+      ],
+      "file": "ia_stk_015_coffee-first.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_016",
+      "title": "Currently reading",
+      "category": "Libri",
+      "style": "Brand Clean",
+      "tags": [
+        "libri",
+        "brand-clean",
+        "currently",
+        "reading"
+      ],
+      "file": "ia_stk_016_currently-reading.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_017",
+      "title": "Coffee first con tazza decorativa",
+      "category": "Lifestyle",
+      "style": "Brand Variants",
+      "tags": [
+        "lifestyle",
+        "brand-variants",
+        "coffee",
+        "first",
+        "tazza",
+        "decorativa"
+      ],
+      "file": "ia_stk_017_coffee-first-con-tazza-decorativa.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_018",
+      "title": "Elegante giornata in tribunale",
+      "category": "Avvocato & Lavoro",
+      "style": "Brand Variants",
+      "tags": [
+        "avvocato-lavoro",
+        "brand-variants",
+        "giornata",
+        "tribunale"
+      ],
+      "file": "ia_stk_018_elegante-giornata-in-tribunale.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_019",
+      "title": "Legal notes con taccuino e cuori",
+      "category": "Avvocato & Lavoro",
+      "style": "Brand Variants",
+      "tags": [
+        "avvocato-lavoro",
+        "brand-variants",
+        "legal",
+        "notes",
+        "taccuino",
+        "cuori"
+      ],
+      "file": "ia_stk_019_legal-notes-con-taccuino-e-cuori.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_020",
+      "title": "Lettura e tempo cozy",
+      "category": "Libri",
+      "style": "Brand Variants",
+      "tags": [
+        "libri",
+        "brand-variants",
+        "lettura",
+        "tempo",
+        "cozy"
+      ],
+      "file": "ia_stk_020_lettura-e-tempo-cozy.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_021",
+      "title": "Mom life con cuori e brillanti",
+      "category": "Maternità & Family",
+      "style": "Brand Variants",
+      "tags": [
+        "maternita-family",
+        "brand-variants",
+        "life",
+        "cuori",
+        "brillanti"
+      ],
+      "file": "ia_stk_021_mom-life-con-cuori-e-brillanti.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_022",
+      "title": "Tipografico little things",
+      "category": "Lifestyle",
+      "style": "Brand Variants",
+      "tags": [
+        "lifestyle",
+        "brand-variants",
+        "little",
+        "things"
+      ],
+      "file": "ia_stk_022_tipografico-little-things.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_023",
+      "title": "Tipografico my little boy",
+      "category": "Maternità & Family",
+      "style": "Brand Variants",
+      "tags": [
+        "maternita-family",
+        "brand-variants",
+        "little"
+      ],
+      "file": "ia_stk_023_tipografico-my-little-boy.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_024",
+      "title": "Tipografico slow morning",
+      "category": "Lifestyle",
+      "style": "Brand Variants",
+      "tags": [
+        "lifestyle",
+        "brand-variants",
+        "slow",
+        "morning"
+      ],
+      "file": "ia_stk_024_tipografico-slow-morning.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_025",
+      "title": "Vintage book mail",
+      "category": "Libri",
+      "style": "Brand Variants",
+      "tags": [
+        "libri",
+        "brand-variants",
+        "vintage",
+        "book",
+        "mail"
+      ],
+      "file": "ia_stk_025_vintage-book-mail.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_026",
+      "title": "Vita da avvocato",
+      "category": "Avvocato & Lavoro",
+      "style": "Brand Variants",
+      "tags": [
+        "avvocato-lavoro",
+        "brand-variants",
+        "vita",
+        "avvocato"
+      ],
+      "file": "ia_stk_026_vita-da-avvocato.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_027",
+      "title": "Buongiorno in stile sticker",
+      "category": "Saluti",
+      "style": "Brand Variants",
+      "tags": [
+        "saluti",
+        "brand-variants",
+        "buongiorno",
+        "sticker"
+      ],
+      "file": "ia_stk_027_buongiorno-in-stile-sticker.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_028",
+      "title": "La mia piccola meraviglia in calligrafia",
+      "category": "Maternità & Family",
+      "style": "Brand Variants",
+      "tags": [
+        "maternita-family",
+        "brand-variants",
+        "piccola",
+        "meraviglia"
+      ],
+      "file": "ia_stk_028_la-mia-piccola-meraviglia-in-calligrafia.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_029",
+      "title": "Mamma e me abbracciate sticker affettuoso",
+      "category": "Maternità & Family",
+      "style": "Brand Variants",
+      "tags": [
+        "maternita-family",
+        "brand-variants",
+        "mamma",
+        "abbracciate",
+        "sticker",
+        "affettuoso"
+      ],
+      "file": "ia_stk_029_mamma-e-me-abbracciate-sticker-affettuoso.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_030",
+      "title": "Reading",
+      "category": "Libri",
+      "style": "Editorial Minimal",
+      "tags": [
+        "libri",
+        "editorial-minimal",
+        "reading"
+      ],
+      "file": "ia_stk_030_reading.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_031",
+      "title": "Weekend",
+      "category": "Lifestyle",
+      "style": "Editorial Minimal",
+      "tags": [
+        "lifestyle",
+        "editorial-minimal",
+        "weekend"
+      ],
+      "file": "ia_stk_031_weekend.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_032",
+      "title": "Autumn",
+      "category": "Stagioni",
+      "style": "Editorial Minimal",
+      "tags": [
+        "stagioni",
+        "editorial-minimal",
+        "autumn"
+      ],
+      "file": "ia_stk_032_autumn.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_033",
+      "title": "Morning",
+      "category": "Lifestyle",
+      "style": "Editorial Minimal",
+      "tags": [
+        "lifestyle",
+        "editorial-minimal",
+        "morning"
+      ],
+      "file": "ia_stk_033_morning.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_034",
+      "title": "Court",
+      "category": "Avvocato & Lavoro",
+      "style": "Editorial Minimal",
+      "tags": [
+        "avvocato-lavoro",
+        "editorial-minimal",
+        "court"
+      ],
+      "file": "ia_stk_034_court.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_035",
+      "title": "Mama",
+      "category": "Maternità & Family",
+      "style": "Editorial Minimal",
+      "tags": [
+        "maternita-family",
+        "editorial-minimal",
+        "mama"
+      ],
+      "file": "ia_stk_035_mama.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_036",
+      "title": "Happy halloween",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "happy"
+      ],
+      "file": "ia_stk_036_happy-halloween.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_037",
+      "title": "Spooky season",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "spooky",
+        "season"
+      ],
+      "file": "ia_stk_037_spooky-season.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_038",
+      "title": "Trick or treat",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "trick",
+        "treat"
+      ],
+      "file": "ia_stk_038_trick-or-treat.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_039",
+      "title": "Stay spooky",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "stay",
+        "spooky"
+      ],
+      "file": "ia_stk_039_stay-spooky.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_040",
+      "title": "Spooky but caffeinated",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "spooky",
+        "caffeinated"
+      ],
+      "file": "ia_stk_040_spooky-but-caffeinated.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_041",
+      "title": "Pumpkin bow",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "pumpkin"
+      ],
+      "file": "ia_stk_041_pumpkin-bow.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_042",
+      "title": "Black cat pumpkin",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "black",
+        "pumpkin"
+      ],
+      "file": "ia_stk_042_black-cat-pumpkin.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_043",
+      "title": "Witch hat",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "witch"
+      ],
+      "file": "ia_stk_043_witch-hat.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_044",
+      "title": "October checklist",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "october",
+        "checklist"
+      ],
+      "file": "ia_stk_044_october-checklist.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_045",
+      "title": "More boos please",
+      "category": "Halloween",
+      "style": "Halloween",
+      "tags": [
+        "halloween",
+        "more",
+        "boos",
+        "please"
+      ],
+      "file": "ia_stk_045_more-boos-please.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_046",
+      "title": "Keep going",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "keep",
+        "going"
+      ],
+      "file": "ia_stk_046_keep-going.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_047",
+      "title": "You can do hard things",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "hard",
+        "things"
+      ],
+      "file": "ia_stk_047_you-can-do-hard-things.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_048",
+      "title": "One step at a time",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "step",
+        "time"
+      ],
+      "file": "ia_stk_048_one-step-at-a-time.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_049",
+      "title": "Make it happen",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "make",
+        "happen"
+      ],
+      "file": "ia_stk_049_make-it-happen.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_050",
+      "title": "Trust your timing",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "trust",
+        "your",
+        "timing"
+      ],
+      "file": "ia_stk_050_trust-your-timing.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_051",
+      "title": "Start where you are",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "start",
+        "where"
+      ],
+      "file": "ia_stk_051_start-where-you-are.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_052",
+      "title": "Little progress still counts",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "little",
+        "progress",
+        "still",
+        "counts"
+      ],
+      "file": "ia_stk_052_little-progress-still-counts.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_053",
+      "title": "Be proud of yourself",
+      "category": "Motivazionali",
+      "style": "Motivational",
+      "tags": [
+        "motivazionali",
+        "motivational",
+        "proud",
+        "yourself"
+      ],
+      "file": "ia_stk_053_be-proud-of-yourself.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_054",
+      "title": "Cartolina reading vintage",
+      "category": "Libri",
+      "style": "Postcard / Pen-pal",
+      "tags": [
+        "libri",
+        "postcard-pen-pal",
+        "cartolina",
         "reading",
-        "books"
+        "vintage"
       ],
-      "file": "sticker_stk_044.webp",
-      "sha256_16": "58ba9a200d9f9f54",
+      "file": "ia_stk_054_cartolina-reading-vintage.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_045",
-      "title": "My Book",
+      "id": "ia_stk_055",
+      "title": "Cartolina vintage my little boy",
+      "category": "Maternità & Family",
+      "style": "Postcard / Pen-pal",
+      "tags": [
+        "maternita-family",
+        "postcard-pen-pal",
+        "cartolina",
+        "vintage",
+        "little"
+      ],
+      "file": "ia_stk_055_cartolina-vintage-my-little-boy.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_056",
+      "title": "Cartolina botanica court day",
+      "category": "Avvocato & Lavoro",
+      "style": "Postcard / Pen-pal",
+      "tags": [
+        "avvocato-lavoro",
+        "postcard-pen-pal",
+        "cartolina",
+        "botanica",
+        "court"
+      ],
+      "file": "ia_stk_056_cartolina-botanica-court-day.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_057",
+      "title": "Cartolina botanica good morning",
+      "category": "Saluti",
+      "style": "Postcard / Pen-pal",
+      "tags": [
+        "saluti",
+        "postcard-pen-pal",
+        "cartolina",
+        "botanica",
+        "good",
+        "morning"
+      ],
+      "file": "ia_stk_057_cartolina-botanica-good-morning.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_058",
+      "title": "Cartolina romantica wish you were here",
+      "category": "Lifestyle",
+      "style": "Postcard / Pen-pal",
+      "tags": [
+        "lifestyle",
+        "postcard-pen-pal",
+        "cartolina",
+        "romantica",
+        "wish",
+        "were",
+        "here"
+      ],
+      "file": "ia_stk_058_cartolina-romantica-wish-you-were-here.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_059",
+      "title": "Cartolina vintage con cuore e fiori",
+      "category": "Lifestyle",
+      "style": "Postcard / Pen-pal",
+      "tags": [
+        "lifestyle",
+        "postcard-pen-pal",
+        "cartolina",
+        "vintage",
+        "cuore",
+        "fiori"
+      ],
+      "file": "ia_stk_059_cartolina-vintage-con-cuore-e-fiori.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_060",
+      "title": "Cartolina weekend con botanica e francobollo",
+      "category": "Lifestyle",
+      "style": "Postcard / Pen-pal",
+      "tags": [
+        "lifestyle",
+        "postcard-pen-pal",
+        "cartolina",
+        "weekend",
+        "botanica",
+        "francobollo"
+      ],
+      "file": "ia_stk_060_cartolina-weekend-con-botanica-e-francobollo.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_061",
+      "title": "Scrapbook life lately",
       "category": "Libri",
-      "style": "white_script",
+      "style": "Scrapbook",
       "tags": [
-        "books"
+        "libri",
+        "scrapbook",
+        "life",
+        "lately"
       ],
-      "file": "sticker_stk_045.webp",
-      "sha256_16": "310283178879c82a",
+      "file": "ia_stk_061_scrapbook-life-lately.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_046",
-      "title": "Mom Life",
-      "category": "Maternità",
-      "style": "white_script",
+      "id": "ia_stk_062",
+      "title": "Appunti del weekend in collage",
+      "category": "Lifestyle",
+      "style": "Scrapbook",
       "tags": [
-        "mom",
-        "motherhood"
+        "lifestyle",
+        "scrapbook",
+        "appunti",
+        "weekend",
+        "collage"
       ],
-      "file": "sticker_stk_046.webp",
-      "sha256_16": "af031e5baca78f9c",
+      "file": "ia_stk_062_appunti-del-weekend-in-collage.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_047",
-      "title": "Mom Mode",
-      "category": "Maternità",
-      "style": "white_script",
+      "id": "ia_stk_063",
+      "title": "Collage adesivo legal notes",
+      "category": "Avvocato & Lavoro",
+      "style": "Scrapbook",
       "tags": [
-        "mom",
-        "motherhood"
+        "avvocato-lavoro",
+        "scrapbook",
+        "collage",
+        "adesivo",
+        "legal",
+        "notes"
       ],
-      "file": "sticker_stk_047.webp",
-      "sha256_16": "f900e39e2f9c06ec",
+      "file": "ia_stk_063_collage-adesivo-legal-notes.webp",
       "active": true,
       "favorite": false
     },
     {
-      "id": "stk_048",
-      "title": "Mom Mood",
-      "category": "Maternità",
-      "style": "white_script",
+      "id": "ia_stk_064",
+      "title": "Collage di carta una storia da leggere",
+      "category": "Libri",
+      "style": "Scrapbook",
       "tags": [
-        "mom",
+        "libri",
+        "scrapbook",
+        "collage",
+        "carta",
+        "storia",
+        "leggere"
+      ],
+      "file": "ia_stk_064_collage-di-carta-una-storia-da-leggere.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_065",
+      "title": "Collage scrapbook weekend notes",
+      "category": "Libri",
+      "style": "Scrapbook",
+      "tags": [
+        "libri",
+        "scrapbook",
+        "collage",
+        "weekend",
+        "notes"
+      ],
+      "file": "ia_stk_065_collage-scrapbook-weekend-notes.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_066",
+      "title": "Collage sticker life lately in italiano",
+      "category": "Lifestyle",
+      "style": "Scrapbook",
+      "tags": [
+        "lifestyle",
+        "scrapbook",
+        "collage",
+        "sticker",
+        "life",
+        "lately",
+        "italiano"
+      ],
+      "file": "ia_stk_066_collage-sticker-life-lately-in-italiano.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_067",
+      "title": "Il mio piccolo ragazzo collage scrapbook",
+      "category": "Libri",
+      "style": "Scrapbook",
+      "tags": [
+        "libri",
+        "scrapbook",
+        "piccolo",
+        "ragazzo",
+        "collage"
+      ],
+      "file": "ia_stk_067_il-mio-piccolo-ragazzo-collage-scrapbook.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_068",
+      "title": "Piccole cose grandi giorni",
+      "category": "Lifestyle",
+      "style": "Scrapbook",
+      "tags": [
+        "lifestyle",
+        "scrapbook",
+        "piccole",
+        "cose",
+        "grandi",
+        "giorni"
+      ],
+      "file": "ia_stk_068_piccole-cose-grandi-giorni.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_069",
+      "title": "Tipografico mom mood",
+      "category": "Maternità & Family",
+      "style": "White Script / Cream",
+      "tags": [
+        "maternita-family",
+        "white-script-cream",
         "mood"
       ],
-      "file": "sticker_stk_048.webp",
-      "sha256_16": "abb45ec2d18a9477",
+      "file": "ia_stk_069_tipografico-mom-mood.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_070",
+      "title": "Attualmente sto leggendo",
+      "category": "Libri",
+      "style": "White Script / Cream",
+      "tags": [
+        "libri",
+        "white-script-cream",
+        "attualmente",
+        "leggendo"
+      ],
+      "file": "ia_stk_070_attualmente-sto-leggendo.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_071",
+      "title": "Buon pomeriggio in calligrafia elegante",
+      "category": "Saluti",
+      "style": "White Script / Cream",
+      "tags": [
+        "saluti",
+        "white-script-cream",
+        "buon",
+        "pomeriggio"
+      ],
+      "file": "ia_stk_071_buon-pomeriggio-in-calligrafia-elegante.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_072",
+      "title": "Buonasera in calligrafia elegante",
+      "category": "Saluti",
+      "style": "White Script / Cream",
+      "tags": [
+        "saluti",
+        "white-script-cream",
+        "buonasera"
+      ],
+      "file": "ia_stk_072_buonasera-in-calligrafia-elegante.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_073",
+      "title": "Buonasera in elegante calligrafia",
+      "category": "Saluti",
+      "style": "White Script / Cream",
+      "tags": [
+        "saluti",
+        "white-script-cream",
+        "buonasera"
+      ],
+      "file": "ia_stk_073_buonasera-in-elegante-calligrafia.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_074",
+      "title": "Buongiorno in calligrafia con cuore",
+      "category": "Saluti",
+      "style": "White Script / Cream",
+      "tags": [
+        "saluti",
+        "white-script-cream",
+        "buongiorno",
+        "cuore"
+      ],
+      "file": "ia_stk_074_buongiorno-in-calligrafia-con-cuore.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_075",
+      "title": "Buon pomeriggio con cuore",
+      "category": "Saluti",
+      "style": "White Script / Cream",
+      "tags": [
+        "saluti",
+        "white-script-cream",
+        "buon",
+        "pomeriggio",
+        "cuore"
+      ],
+      "file": "ia_stk_075_buon-pomeriggio-con-cuore.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_076",
+      "title": "Good morning con cuore",
+      "category": "Saluti",
+      "style": "White Script / Cream",
+      "tags": [
+        "saluti",
+        "white-script-cream",
+        "good",
+        "morning",
+        "cuore"
+      ],
+      "file": "ia_stk_076_good-morning-con-cuore.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_077",
+      "title": "My little boy con cuore",
+      "category": "Maternità & Family",
+      "style": "White Script / Cream",
+      "tags": [
+        "maternita-family",
+        "white-script-cream",
+        "little",
+        "cuore"
+      ],
+      "file": "ia_stk_077_my-little-boy-con-cuore.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_078",
+      "title": "Lawyer Life",
+      "category": "Avvocato & Lavoro",
+      "style": "White Script / Cream",
+      "tags": [
+        "avvocato-lavoro",
+        "white-script-cream",
+        "lawyer",
+        "life"
+      ],
+      "file": "ia_stk_078_lawyer-life.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_079",
+      "title": "Modalità mamma",
+      "category": "Maternità & Family",
+      "style": "White Script / Cream",
+      "tags": [
+        "maternita-family",
+        "white-script-cream",
+        "modalita",
+        "mamma"
+      ],
+      "file": "ia_stk_079_modalita-mamma.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_080",
+      "title": "Elegante my book con cuore",
+      "category": "Libri",
+      "style": "White Script / Cream",
+      "tags": [
+        "libri",
+        "white-script-cream",
+        "book",
+        "cuore"
+      ],
+      "file": "ia_stk_080_elegante-my-book-con-cuore.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_081",
+      "title": "Elegante mom life con cuore",
+      "category": "Maternità & Family",
+      "style": "White Script / Cream",
+      "tags": [
+        "maternita-family",
+        "white-script-cream",
+        "life",
+        "cuore"
+      ],
+      "file": "ia_stk_081_elegante-mom-life-con-cuore.webp",
+      "active": true,
+      "favorite": false
+    },
+    {
+      "id": "ia_stk_082",
+      "title": "Vita da avvocato",
+      "category": "Avvocato & Lavoro",
+      "style": "White Script / Cream",
+      "tags": [
+        "avvocato-lavoro",
+        "white-script-cream",
+        "vita",
+        "avvocato"
+      ],
+      "file": "ia_stk_082_vita-da-avvocato.webp",
       "active": true,
       "favorite": false
     }
