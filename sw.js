@@ -1,4 +1,4 @@
-const CACHE='ia-v23-dynamic-20260924';
+const CACHE='ia-v231-hotfix-20260925';
 const CORE=['./','./index.html','./styles.css','./db.js','./zip.js','./app.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png','./logo.png','./signature.svg','./phrases.json','./stickers.json','./brand-logo.webp','./home-portrait.webp','./card-photo.webp','./card-video.webp','./card-template.webp','./travel-suitcase.webp','./avatar-ring.webp','./home-reel.mp4'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

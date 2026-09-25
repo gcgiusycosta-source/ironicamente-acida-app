@@ -28,6 +28,7 @@
   let drag = null, autosaveTimer = null;
   let activeTool = 'format', lastTextBounds = null;
   let defaults = { filter:'soft', format:'original' };
+  let state = null;
 
   function blankState(mode='template') {
     const isMedia=mode==='photo'||mode==='video';
@@ -51,7 +52,9 @@
     signatureImage = await loadImage('./signature.svg').catch(()=>null);
     videoEl = $('#source-video');
     defaults.filter = await IADB.metaGet('default_filter','soft');
-    defaults.format = await IADB.metaGet('default_format','story');
+    defaults.format = await IADB.metaGet('default_format','original');
+    if(!['original','ratio43','ratio169','square'].includes(defaults.format)) defaults.format='original';
+    state = blankState('template');
     await seedStarter(false);
     await loadSettingsUI();
     bindEvents();
@@ -248,7 +251,7 @@
       if(action==='new'){
         state=blankState('photo');
         state.filter=defaults.filter;
-        state.format=defaults.format||'original';
+        state.format='original';
         state.bgDataUrl=prepared.data;
         state.photoFit=state.format==='original'?'contain':'cover';
         state.photoZoom=1;state.photoX=0;state.photoY=0;
@@ -262,7 +265,8 @@
     }catch(err){
       console.error('Errore caricamento foto',err);
       closeModal();
-      openModal('Foto non caricata',`<p class="muted">Non sono riuscita ad aprire questa fotografia. Prova a sceglierla di nuovo oppure, se è in un formato particolare, salvala prima in Foto come JPEG/PNG.</p><div class="modal-buttons"><button class="big-button" id="photo-error-close">OK</button></div>`);
+      const detail=escapeHtml(err?.message||'Errore sconosciuto');
+      openModal('Foto non caricata',`<p class="muted">Non sono riuscita ad aprire questa fotografia. <strong>${detail}</strong></p><p class="muted">Riprova a selezionarla da Foto. Se il formato non viene letto da Safari, salvala come JPEG/PNG e riprova.</p><div class="modal-buttons"><button class="big-button" id="photo-error-close">OK</button></div>`);
       $('#photo-error-close').onclick=closeModal;
     }
   }
@@ -282,8 +286,8 @@
       if(action==='new'){
         state=blankState('video');
         state.filter=defaults.filter;
-        state.format=defaults.format||'original';
-        state.photoFit=state.format==='original'?'contain':'cover';
+        state.format='original';
+        state.photoFit='contain';
         state.photoZoom=1;state.photoX=0;state.photoY=0;
       }else state.mode='video';
       state.bgDataUrl=null;bgImage=null;

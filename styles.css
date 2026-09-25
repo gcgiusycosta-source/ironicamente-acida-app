@@ -125,3 +125,43 @@ body{background-attachment:fixed}.app-shell{padding-bottom:104px}.screen-wrap{ma
 @media(max-width:620px){.app-header{height:72px}.home-screen-v23{padding:14px 13px 28px}.home-v23-top h1{font-size:35px}.home-avatar{width:54px;height:54px}.motion-stage{height:355px;border-radius:28px}.motion-copy{left:17px;bottom:54px}.motion-copy h2{font-size:34px}.motion-play{width:52px;height:52px;right:14px;bottom:62px}.creative-card{flex-basis:72vw;height:245px;border-radius:27px}.inspire-card{flex-basis:164px}.v23-dock{left:8px;right:8px;bottom:calc(7px + env(safe-area-inset-bottom));height:72px;border-radius:25px}.v23-dock .dock-create{width:58px;height:58px}.editor-screen.active{padding-left:7px;padding-right:7px}.editor-screen .editor-topbar{padding-top:68px}.editor-screen .canvas-shell{border-radius:22px}.editor-screen .v2-controls{border-radius:24px}.editor-screen .look-options button{flex-basis:82px}.editor-screen .look-preview{height:82px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
 .editor-screen .v2-tabs svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.editor-screen .v2-tabs .tool-letter{font-family:var(--serif);font-size:18px;font-weight:700}
+
+
+/* ===== V2.3.1 stability + motion refinement ===== */
+.screen.active:not(.editor-screen){animation:v231ScreenIn .36s cubic-bezier(.2,.8,.2,1)}
+@keyframes v231ScreenIn{from{opacity:.35;transform:translateY(14px) scale(.992)}to{opacity:1;transform:none}}
+
+/* Dock: icon-first. Only the active destination reveals its name. */
+.v23-dock{grid-template-columns:1fr 1fr 72px 1fr 1fr;overflow:visible}
+.v23-dock button:not(.dock-create){flex-direction:row;justify-content:center;gap:0;transition:transform .25s ease,color .25s ease,background .25s ease}
+.v23-dock button:not(.dock-create)>span{transition:transform .28s cubic-bezier(.2,1.35,.4,1),background .25s ease}
+.v23-dock button:not(.dock-create)>em{font-style:normal;font-size:10px;font-weight:900;max-width:0;opacity:0;overflow:hidden;white-space:nowrap;transform:translateX(-5px);transition:max-width .28s ease,opacity .2s ease,transform .28s ease,margin .28s ease}
+.v23-dock button:not(.dock-create).selected{background:rgba(255,229,214,.72);padding-left:7px;padding-right:9px}
+.v23-dock button:not(.dock-create).selected>span{transform:translateY(-2px) rotate(-4deg)}
+.v23-dock button:not(.dock-create).selected>em{max-width:58px;opacity:1;transform:none;margin-left:4px}
+.v23-dock button:not(.dock-create):active>span{transform:scale(.82) rotate(7deg)}
+.v23-dock .dock-create{animation:createPulse231 2.6s ease-in-out infinite}
+@keyframes createPulse231{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(4deg);box-shadow:0 18px 34px rgba(230,79,29,.44)}}
+
+/* Sub-pages: less "white form", more editorial/color-block surfaces. */
+[data-screen="phrases"],[data-screen="stickers"],[data-screen="projects"],[data-screen="settings"],[data-screen="templates"]{min-height:calc(100dvh - 70px);padding-top:14px;background:linear-gradient(180deg,#fff8f1 0%,#f7eee4 42%,#f4eadf 100%)}
+[data-screen="phrases"] .screen-title,[data-screen="stickers"] .screen-title,[data-screen="projects"] .screen-title,[data-screen="settings"] .screen-title,[data-screen="templates"] .screen-title{position:relative;overflow:hidden;border-radius:28px;padding:22px 20px;margin:2px 0 18px;box-shadow:0 15px 34px rgba(72,34,17,.08)}
+[data-screen="phrases"] .screen-title{background:linear-gradient(135deg,#ffd9c8,#f6b9a7)}
+[data-screen="stickers"] .screen-title{background:linear-gradient(135deg,#dce6d5,#bfcfb5)}
+[data-screen="projects"] .screen-title{background:linear-gradient(135deg,#f4e5ae,#e8c980)}
+[data-screen="settings"] .screen-title{background:linear-gradient(135deg,#edd7cc,#d8b7a9)}
+[data-screen="templates"] .screen-title{background:linear-gradient(135deg,#f9d5c6,#f2c5ad)}
+[data-screen="phrases"] .screen-title:after,[data-screen="stickers"] .screen-title:after,[data-screen="projects"] .screen-title:after,[data-screen="settings"] .screen-title:after,[data-screen="templates"] .screen-title:after{content:"♡";position:absolute;right:16px;bottom:-16px;font-family:var(--serif);font-size:84px;line-height:1;color:rgba(230,95,34,.16);transform:rotate(10deg);pointer-events:none}
+[data-screen="phrases"] .screen-title h1,[data-screen="stickers"] .screen-title h1,[data-screen="projects"] .screen-title h1,[data-screen="settings"] .screen-title h1,[data-screen="templates"] .screen-title h1{margin-bottom:4px}
+.search-box,.segmented,.content-actions button,.phrase-card,.sticker-card,.project-card,.settings-stack .panel-card{box-shadow:0 10px 25px rgba(61,28,13,.055)}
+.phrase-list>*:nth-child(2n),.sticker-grid>*:nth-child(3n+2){transform:translateY(5px)}
+.phrase-list>*:nth-child(3n){transform:rotate(.35deg)}
+.sticker-grid>*:nth-child(4n){transform:rotate(-.45deg)}
+.phrase-card,.sticker-card,.project-card{animation:v231CardIn .4s both cubic-bezier(.2,.8,.2,1)}
+@keyframes v231CardIn{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1}}
+
+@media(max-width:620px){
+  .v23-dock button:not(.dock-create)>em{font-size:9px}
+  .v23-dock button:not(.dock-create).selected>em{max-width:50px}
+  [data-screen="phrases"] .screen-title,[data-screen="stickers"] .screen-title,[data-screen="projects"] .screen-title,[data-screen="settings"] .screen-title,[data-screen="templates"] .screen-title{padding:18px 16px;border-radius:24px}
+}
