@@ -1,0 +1,17 @@
+IRONICAMENTE ACIDA V2.3 — QA
+
+Controlli eseguiti:
+- app.js: sintassi Node OK
+- db.js: sintassi Node OK
+- sw.js: sintassi Node OK
+- zip.js: sintassi Node OK
+- manifest.webmanifest: JSON valido
+- phrases.json: JSON valido
+- stickers.json: JSON valido
+- 82 sticker dichiarati / 82 file presenti
+- nessun ID HTML duplicato
+- nessun riferimento statico mancante da HTML/CSS
+- home-reel.mp4: H.264, 720x1280, 25 fps, 7.4 s
+- service worker cache aggiornata a ia-v23-dynamic-20260924
+
+Nota: il comportamento finale Safari/iPhone e l'export video vanno sempre verificati sul dispositivo reale dopo il deploy.
