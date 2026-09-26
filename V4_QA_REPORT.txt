@@ -1,0 +1,31 @@
+IRONICAMENTE ACIDA — V4 STABLE CORE
+QA tecnico statico
+
+Obiettivo: correggere i difetti funzionali emersi nella V3 senza continuare a stratificare patch.
+
+Correzioni strutturali:
+- Story e Storia del buongiorno partono VUOTE: nessuna foto e nessun testo preimpostato.
+- Storia del buongiorno apre direttamente la banca Frasi filtrata sulle categorie Buongiorno.
+- Carosello: 5 slide VUOTE, nessuna immagine preimpostata; ogni slide può ricevere la propria foto; aggiunta/eliminazione slide fino a 10.
+- Foto e video: caricamento diretto via Object URL, senza pre-conversione.
+- Frasi: normalizzazione compatibile sia con vecchio schema (text/category) sia con nuovo schema (testo/categoria), con fallback immediato ai 240 record JSON se IndexedDB non risponde.
+- Sticker: fallback immediato agli 82 sticker JSON, categorie e inserimento nell'editor.
+- Template: griglia a larghezza corretta (width:100%), anteprime con vera frase visibile, categorie funzionanti.
+- Editor: stage quasi full-width; rail laterale sovrapposta e non più spazio sottratto al canvas.
+- Testo: font, sfondo, colore, allineamento, dimensione, larghezza, opacità, rotazione e trascinamento.
+- Sticker: inserimento, trascinamento, dimensione, rotazione, duplicazione, eliminazione.
+- Firma: opzionale.
+- Cache PWA disattivata durante sviluppo; sw.js cancella cache e si deregistra.
+
+Controlli effettuati:
+- node --check app.js: OK
+- node --check db.js: OK
+- phrases.json: 240 record
+- stickers.json: 82 record
+- photos.json: 14 record
+- 82/82 file sticker presenti
+- 14/14 file foto presenti
+- ID HTML richiesti presenti (selettori composti esclusi dal controllo ID)
+
+Nota Reel:
+La preview video e il caricamento usano il file nativo del telefono. L'export Reel in questa build condivide il video originale; il compositing definitivo di filtro/testo/sticker nel file video richiede un collaudo specifico su Safari/iPhone prima di essere dichiarato concluso.

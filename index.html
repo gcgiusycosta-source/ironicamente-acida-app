@@ -1,209 +1,167 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-  <meta name="theme-color" content="#0d0d0d">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Ironicamente Acida">
-  <title>Ironicamente Acida Studio</title>
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-  <link rel="stylesheet" href="./styles.css?v=300">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#0d0d0d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ironicamente Acida">
+<title>Ironicamente Acida Studio</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<link rel="stylesheet" href="./styles.css?v=400">
 </head>
 <body>
-  <div id="boot" class="boot">
-    <div class="boot-strip" id="boot-strip"></div>
-    <div class="boot-shade"></div>
-    <img src="./brand-logo.webp" alt="Ironicamente Acida" class="boot-logo">
-    <p>PERSONAL CONTENT STUDIO</p>
-    <span>V3 · BUILD 01</span>
+<div id="boot" class="boot">
+  <img src="./brand-logo.webp" class="boot-logo" alt="Ironicamente Acida">
+  <div class="boot-line"></div>
+  <span>STUDIO V4 · BUILD 01</span>
+</div>
+<div id="app" class="app hidden">
+<main id="screens">
+<section class="screen active" data-screen="home">
+  <header class="home-header">
+    <img src="./brand-logo.webp" class="wordmark" alt="Ironicamente Acida">
+    <button class="avatar-button" data-nav="profile"><img src="./ia_photo_14.webp" alt="Profilo"></button>
+  </header>
+  <section class="hero-v4">
+    <div class="hero-media" id="hero-media">
+      <img class="hero-photo active" src="./ia_photo_03.webp" alt="">
+      <img class="hero-photo" src="./ia_photo_08.webp" alt="">
+      <img class="hero-photo" src="./ia_photo_10.webp" alt="">
+      <img class="hero-photo" src="./ia_photo_01.webp" alt="">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-copy-v4"><span>CREA · RACCONTA · PUBBLICA</span><h1>Il tuo studio creativo,<br><em>senza passare da altre app.</em></h1><p>Storie, caroselli, reel, frasi e template costruiti intorno a Ironicamente Acida.</p></div>
+  </section>
+  <section class="create-cards">
+    <button data-create="morning" class="create-card morning"><span class="create-kicker">30 SEC.</span><strong>Storia del buongiorno</strong><small>Parti vuota, scegli foto e frase.</small><i>↗</i></button>
+    <button data-create="story" class="create-card"><span class="create-kicker">9:16</span><strong>Storia</strong><small>Foto o video, testo, sticker, look.</small><i>↗</i></button>
+    <button data-create="carousel" class="create-card"><span class="create-kicker">4:5</span><strong>Carosello</strong><small>5 slide vuote, tutte modificabili.</small><i>↗</i></button>
+    <button data-create="reel" class="create-card"><span class="create-kicker">VIDEO</span><strong>Reel</strong><small>Carica un video e costruisci il contenuto.</small><i>↗</i></button>
+  </section>
+  <section class="home-strip">
+    <div class="section-title"><div><span>ARCHIVIO VISIVO</span><h2>Le tue fotografie</h2></div><small>tocca per iniziare</small></div>
+    <div class="photo-ribbon" id="home-photo-ribbon"></div>
+  </section>
+  <section class="home-template-card" data-nav="templates">
+    <img src="./ia_photo_02.webp" alt=""><div class="shade"></div><div><span>TEMPLATE</span><h2>Frasi già pronte da trasformare.</h2><p>Buongiorno, vita reale, libri, viaggi, caroselli e reel.</p></div><b>Apri ↗</b>
+  </section>
+</section>
+
+<section class="screen" data-screen="templates">
+  <header class="sub-header"><div><span>TEMPLATE</span><h1>Parti da una grafica.</h1><p>Ogni template è completamente modificabile: foto, testo, sfondo, font, sticker e filtro.</p></div></header>
+  <div class="category-chips" id="template-chips">
+    <button class="selected" data-category="all">Tutti</button><button data-category="morning">Buongiorno</button><button data-category="story">Storie</button><button data-category="quote">Frasi</button><button data-category="carousel">Caroselli</button><button data-category="reel">Reel</button>
+  </div>
+  <div class="template-grid" id="template-grid"></div>
+</section>
+
+<section class="screen" data-screen="projects">
+  <header class="sub-header"><div><span>PROGETTI</span><h1>Riprendi da dove eri rimasta.</h1><p>I progetti salvati restano modificabili.</p></div></header>
+  <div class="project-grid" id="project-grid"></div>
+</section>
+
+<section class="screen" data-screen="profile">
+  <header class="profile-hero"><img src="./ia_photo_14.webp" alt=""><div class="shade"></div><div><span>IL TUO STUDIO</span><h1>Ironicamente Acida</h1><p>Frasi, sticker, immagini e contenuti in un solo posto.</p></div></header>
+  <div class="profile-grid"><button data-nav="phrases"><b>“</b><strong>Frasi</strong><small id="phrase-count">—</small></button><button data-nav="stickers"><b>♡</b><strong>Sticker</strong><small id="sticker-count">—</small></button><button><b>◫</b><strong>Foto</strong><small>14 in libreria</small></button><button><b>⚙︎</b><strong>Impostazioni</strong><small>V4 · build 01</small></button></div>
+</section>
+
+<section class="screen" data-screen="phrases">
+  <header class="sub-header"><div><span>ARCHIVIO</span><h1>Frasi</h1><p>La banca personale di Ironicamente Acida.</p></div><button id="new-phrase" class="round-add">+</button></header>
+  <input id="phrase-search" class="search-input" placeholder="Cerca una frase…">
+  <div class="category-chips" id="phrase-bank-chips"></div>
+  <div class="phrase-bank" id="phrase-bank"></div>
+</section>
+
+<section class="screen" data-screen="stickers">
+  <header class="sub-header"><div><span>ARCHIVIO</span><h1>Sticker</h1><p>La libreria completa, divisa per tema.</p></div></header>
+  <div class="category-chips" id="sticker-bank-chips"></div>
+  <div class="sticker-bank" id="sticker-bank"></div>
+</section>
+
+<section class="screen editor-screen" data-screen="editor">
+  <header class="editor-header"><button id="editor-close">×</button><div><span id="editor-mode-label">Storia</span><small id="editor-build">V4 · build 01</small></div><button id="editor-save" class="save-pill">Salva</button></header>
+  <div id="carousel-strip" class="carousel-strip hidden"></div>
+  <div class="editor-wrap">
+    <div class="media-stage format-story" id="media-stage">
+      <div id="stage-bg" class="stage-bg"></div>
+      <img id="stage-image" hidden alt="">
+      <video id="stage-video" hidden playsinline controls preload="metadata"></video>
+      <button id="stage-empty" class="stage-empty"><span>＋</span><b>Aggiungi foto o video</b><small>Il progetto parte vuoto</small></button>
+      <div id="layer-root" class="layer-root"></div>
+    </div>
+    <div class="editor-rail" id="editor-rail">
+      <button data-tool="media"><span>◫</span><b>Media</b></button>
+      <button data-tool="text"><span>T</span><b>Testo</b></button>
+      <button data-tool="phrases"><span>“</span><b>Frasi</b></button>
+      <button data-tool="look"><span>✦</span><b>Look</b></button>
+      <button data-tool="stickers"><span>♡</span><b>Sticker</b></button>
+      <button data-tool="signature"><span>✎</span><b>Firma</b></button>
+    </div>
+    <div id="layer-toolbar" class="layer-toolbar hidden"><button id="duplicate-layer">⧉</button><button id="delete-layer">⌫</button></div>
   </div>
 
-  <div id="app" class="app hidden">
-    <main id="screens">
-      <section class="screen active screen-home" data-screen="home">
-        <header class="home-header">
-          <img class="wordmark" src="./brand-logo.webp" alt="Ironicamente Acida">
-          <button class="avatar-button" data-nav="profile"><img src="./ia_photo_14.webp" alt="Profilo"></button>
-        </header>
+  <section class="editor-panel" id="editor-panel">
+    <button class="panel-collapse" id="panel-collapse">⌄</button>
+    <div class="tool-panel" data-panel="media">
+      <div class="panel-title"><div><span>MEDIA</span><h3>Scegli cosa inserire</h3></div></div>
+      <div class="media-buttons"><button id="pick-photo">Foto dal telefono</button><button id="pick-video">Video dal telefono</button><button id="use-library-photo">Foto libreria</button><button id="clear-media">Rimuovi media</button></div>
+      <div class="fit-row"><button data-fit="cover" class="selected">Riempi</button><button data-fit="contain">Foto intera</button></div>
+    </div>
+    <div class="tool-panel" data-panel="text">
+      <div class="panel-title"><div><span>TESTO</span><h3>Disegna la frase</h3></div><button id="add-text" class="small-add">+ testo</button></div>
+      <textarea id="text-input" class="text-area" rows="2" placeholder="Scrivi qui…"></textarea>
+      <div class="editor-subtabs"><button class="selected" data-subtab="font">Font</button><button data-subtab="background">Sfondo</button><button data-subtab="color">Colore</button><button data-subtab="align">Allinea</button></div>
+      <div class="subpanel active" data-subpanel="font"><div class="font-row" id="font-row"></div></div>
+      <div class="subpanel" data-subpanel="background"><div class="background-row" id="background-row"></div></div>
+      <div class="subpanel" data-subpanel="color"><div class="color-row" id="color-row"></div></div>
+      <div class="subpanel" data-subpanel="align"><div class="align-row"><button data-align="left">≡</button><button data-align="center">≣</button><button data-align="right">≡</button></div></div>
+      <label class="range-control"><span>Dimensione</span><input id="text-size" type="range" min="20" max="90" value="48"><output id="text-size-out">48</output></label>
+      <label class="range-control"><span>Larghezza</span><input id="text-width" type="range" min="28" max="95" value="74"><output id="text-width-out">74%</output></label>
+      <label class="range-control"><span>Opacità sfondo</span><input id="text-bg-opacity" type="range" min="0" max="100" value="76"><output id="text-bg-opacity-out">76%</output></label>
+      <label class="range-control"><span>Rotazione</span><input id="text-rotation" type="range" min="-30" max="30" value="0"><output id="text-rotation-out">0°</output></label>
+    </div>
+    <div class="tool-panel" data-panel="phrases">
+      <div class="panel-title"><div><span>FRASI</span><h3>Scegli dalla banca</h3></div></div>
+      <div class="category-chips compact" id="phrase-picker-chips"></div>
+      <div class="phrase-picker" id="phrase-picker"></div>
+    </div>
+    <div class="tool-panel" data-panel="look">
+      <div class="panel-title"><div><span>LOOK</span><h3>Applica il filtro</h3></div></div>
+      <div class="look-row" id="look-row"></div>
+      <label class="range-control"><span>Intensità</span><input id="filter-strength" type="range" min="0" max="100" value="80"><output id="filter-strength-out">80%</output></label>
+    </div>
+    <div class="tool-panel" data-panel="stickers">
+      <div class="panel-title"><div><span>STICKER</span><h3>Aggiungi un elemento</h3></div></div>
+      <div class="category-chips compact" id="sticker-picker-chips"></div>
+      <div class="sticker-picker" id="sticker-picker"></div>
+      <label class="range-control"><span>Dimensione</span><input id="layer-size" type="range" min="10" max="70" value="30"><output id="layer-size-out">30%</output></label>
+      <label class="range-control"><span>Rotazione</span><input id="layer-rotation" type="range" min="-180" max="180" value="0"><output id="layer-rotation-out">0°</output></label>
+    </div>
+    <div class="tool-panel" data-panel="signature">
+      <div class="panel-title"><div><span>FIRMA</span><h3>Inseriscila solo quando vuoi</h3></div></div>
+      <div class="media-buttons"><button id="add-signature">Aggiungi firma</button><button id="remove-signature">Rimuovi firma</button></div>
+    </div>
+  </section>
+  <div class="editor-bottom"><button id="editor-project">Salva progetto</button><button id="editor-export" class="orange-action">Condividi</button></div>
+</section>
+</main>
 
-        <section class="hero-stage" id="hero-stage">
-          <div class="hero-slide active" style="background-image:url('./ia_photo_01.webp')"></div>
-          <div class="hero-slide" style="background-image:url('./ia_photo_03.webp')"></div>
-          <div class="hero-slide" style="background-image:url('./ia_photo_08.webp')"></div>
-          <div class="hero-slide" style="background-image:url('./ia_photo_09.webp')"></div>
-          <div class="hero-vignette"></div>
-          <div class="hero-copy">
-            <span class="eyebrow">OGGI, IN POCHI TOCCHI</span>
-            <h1>Storie, caroselli e reel<br><em>che sembrano già tuoi.</em></h1>
-            <p>Le tue foto, le tue parole, il tuo stile. Senza passare da altre app.</p>
-          </div>
-          <button class="hero-cta" id="hero-create"><span>+</span><b>Crea adesso</b></button>
-          <div class="hero-progress" id="hero-progress"><i class="active"></i><i></i><i></i><i></i></div>
-        </section>
+<nav class="bottom-dock" id="bottom-dock">
+  <button data-nav="home" class="selected"><span class="dock-icon dock-create"><i></i></span><b>Crea</b></button>
+  <button data-nav="templates"><span class="dock-icon dock-template"><i></i><i></i><i></i><i></i></span><b>Template</b></button>
+  <button data-nav="projects"><span class="dock-icon dock-project"><i></i><i></i></span><b>Progetti</b></button>
+  <button data-nav="profile"><span class="dock-icon dock-profile"><i></i><i></i></span><b>Profilo</b></button>
+</nav>
 
-        <section class="quick-section">
-          <div class="section-head"><div><span class="eyebrow">CREA SUBITO</span><h2>Scegli cosa vuoi pubblicare</h2></div></div>
-          <div class="quick-grid">
-            <button class="quick-card morning" data-create="morning">
-              <div class="quick-icon sun-icon"><i></i></div><strong>Storia del buongiorno</strong><span>frase + foto + look</span><b>30 sec.</b>
-            </button>
-            <button class="quick-card story" data-create="story">
-              <div class="quick-icon story-icon"><i></i></div><strong>Storia</strong><span>foto o video</span><b>9:16</b>
-            </button>
-            <button class="quick-card carousel" data-create="carousel">
-              <div class="quick-icon carousel-icon"><i></i><i></i><i></i></div><strong>Carosello</strong><span>5 slide pronte</span><b>4:5</b>
-            </button>
-            <button class="quick-card reel" data-create="reel">
-              <div class="quick-icon reel-icon"><i></i></div><strong>Reel</strong><span>video + testo + filtro</span><b>9:16</b>
-            </button>
-          </div>
-        </section>
-
-        <section class="photo-ribbon-section">
-          <div class="section-head"><div><span class="eyebrow">DAL TUO ARCHIVIO</span><h2>Fotografie che danno il tono</h2></div><span class="drag-hint">scorri →</span></div>
-          <div class="photo-ribbon" id="home-photo-ribbon"></div>
-        </section>
-
-        <section class="template-teaser" data-nav="templates">
-          <div class="teaser-photo" style="background-image:url('./ia_photo_02.webp')"></div>
-          <div class="teaser-overlay"></div>
-          <div class="teaser-copy"><span>Template</span><h2>Le frasi sono già una grafica.</h2><p>Buongiorno, pensieri, libri, viaggio e caroselli.</p></div>
-          <button>Apri <span>↗</span></button>
-        </section>
-
-        <section class="recent-section">
-          <div class="section-head"><div><span class="eyebrow">CONTINUA</span><h2>Ultimi progetti</h2></div><button class="link-button" data-nav="projects">Vedi tutti</button></div>
-          <div class="recent-track" id="home-recent"><div class="empty-mini">I progetti salvati appariranno qui.</div></div>
-        </section>
-      </section>
-
-      <section class="screen screen-templates" data-screen="templates">
-        <header class="sub-header"><div><span class="eyebrow">LIBRERIA</span><h1>Template</h1><p>Parti da una grafica pronta e cambiala come vuoi.</p></div><button class="circle-search">⌕</button></header>
-        <div class="category-chips" id="template-chips">
-          <button class="selected" data-category="all">Tutti</button><button data-category="morning">Buongiorno</button><button data-category="story">Storie</button><button data-category="quote">Frasi</button><button data-category="carousel">Caroselli</button><button data-category="reel">Reel</button>
-        </div>
-        <div class="template-masonry" id="template-grid"></div>
-      </section>
-
-      <section class="screen screen-projects" data-screen="projects">
-        <header class="sub-header"><div><span class="eyebrow">ARCHIVIO</span><h1>I miei progetti</h1><p>Riprendi, duplica o esporta quello che hai creato.</p></div></header>
-        <div class="category-chips"><button class="selected">Tutti</button><button>Storie</button><button>Caroselli</button><button>Reel</button></div>
-        <div class="project-grid" id="project-grid"><div class="empty-state">Nessun progetto salvato.</div></div>
-      </section>
-
-      <section class="screen screen-profile" data-screen="profile">
-        <header class="profile-hero">
-          <img src="./ia_photo_14.webp" alt="">
-          <div><span class="eyebrow">IL TUO STUDIO</span><h1>Ironicamente Acida</h1><p>La tua banca personale di idee, frasi, foto e contenuti.</p></div>
-        </header>
-        <div class="profile-grid">
-          <button class="profile-card" data-nav="phrases"><span class="profile-symbol">“</span><strong>Frasi</strong><small id="phrase-count">—</small></button>
-          <button class="profile-card" data-nav="stickers"><span class="profile-symbol">♡</span><strong>Sticker</strong><small id="sticker-count">—</small></button>
-          <button class="profile-card"><span class="profile-symbol">◫</span><strong>Foto</strong><small>14 in libreria</small></button>
-          <button class="profile-card"><span class="profile-symbol">⚙︎</span><strong>Impostazioni</strong><small>V3 · build 01</small></button>
-        </div>
-        <div class="profile-note"><span>Identità visiva</span><b>Nero profondo · avorio · arancione acido</b><p>L’icona esterna e la firma restano quelle ufficiali di Ironicamente Acida.</p></div>
-      </section>
-
-      <section class="screen screen-bank" data-screen="phrases">
-        <header class="sub-header"><div><span class="eyebrow">ARCHIVIO</span><h1>Frasi</h1><p>La tua banca personale, pronta da usare nei contenuti.</p></div><button class="round-add" id="new-phrase">+</button></header>
-        <input class="search-input" id="phrase-search" placeholder="Cerca una frase…">
-        <div class="phrase-bank" id="phrase-bank"></div>
-      </section>
-
-      <section class="screen screen-bank" data-screen="stickers">
-        <header class="sub-header"><div><span class="eyebrow">ARCHIVIO</span><h1>Sticker</h1><p>82 elementi divisi per stile e tema.</p></div></header>
-        <div class="category-chips" id="sticker-chips"></div>
-        <div class="sticker-bank" id="sticker-bank"></div>
-      </section>
-
-      <section class="screen screen-editor" data-screen="editor">
-        <header class="editor-header">
-          <button class="editor-close" id="editor-close">×</button>
-          <div class="editor-center"><span id="editor-mode-label">Storia</span><small id="editor-build">V3</small></div>
-          <button class="save-pill" id="editor-save">Salva</button>
-        </header>
-
-        <div class="carousel-strip hidden" id="carousel-strip"></div>
-
-        <div class="editor-workspace">
-          <div class="media-stage format-story" id="media-stage">
-            <div class="stage-bg" id="stage-bg"></div>
-            <img id="stage-image" alt="" hidden>
-            <video id="stage-video" playsinline controls hidden></video>
-            <div class="stage-shade" id="stage-shade"></div>
-            <div id="layer-root" class="layer-root"></div>
-            <div class="layer-toolbar hidden" id="layer-toolbar"><button id="duplicate-layer">⧉</button><button id="delete-layer">⌫</button></div>
-            <div class="stage-empty" id="stage-empty"><b>+</b><span>Aggiungi una foto o un video</span></div>
-          </div>
-        </div>
-
-        <div class="editor-rail" id="editor-rail">
-          <button data-tool="media"><span class="rail-icon image-rail"></span><b>Media</b></button>
-          <button data-tool="text" class="selected"><span class="rail-icon text-rail">T</span><b>Testo</b></button>
-          <button data-tool="phrases"><span class="rail-icon quote-rail">“</span><b>Frasi</b></button>
-          <button data-tool="look"><span class="rail-icon sparkle-rail">✦</span><b>Look</b></button>
-          <button data-tool="stickers"><span class="rail-icon heart-rail">♡</span><b>Sticker</b></button>
-          <button data-tool="signature"><span class="rail-icon sign-rail">✎</span><b>Firma</b></button>
-        </div>
-
-        <div class="editor-panel" id="editor-panel">
-          <div class="tool-panel" data-panel="media">
-            <div class="panel-title"><div><span class="eyebrow">MEDIA</span><h3>Foto o video</h3></div></div>
-            <div class="media-buttons"><button id="pick-photo">Foto</button><button id="pick-video">Video</button><button id="use-library-photo">Libreria</button></div>
-            <div class="fit-row"><button data-fit="cover" class="selected">Riempi</button><button data-fit="contain">Intera</button></div>
-          </div>
-
-          <div class="tool-panel active" data-panel="text">
-            <div class="panel-title"><div><span class="eyebrow">TESTO</span><h3>Disegna la frase</h3></div><button class="small-add" id="add-text">+ testo</button></div>
-            <textarea id="text-input" class="text-area" rows="2" placeholder="Scrivi qui…"></textarea>
-            <div class="editor-subtabs"><button class="selected" data-subtab="font">Font</button><button data-subtab="background">Sfondo</button><button data-subtab="color">Colore</button><button data-subtab="align">Allinea</button></div>
-            <div class="subpanel active" data-subpanel="font"><div class="font-row" id="font-row"></div></div>
-            <div class="subpanel" data-subpanel="background"><div class="background-row" id="background-row"></div></div>
-            <div class="subpanel" data-subpanel="color"><div class="color-row" id="color-row"></div></div>
-            <div class="subpanel" data-subpanel="align"><div class="align-row"><button data-align="left">⇤</button><button data-align="center" class="selected">≡</button><button data-align="right">⇥</button></div></div>
-            <label class="range-control"><span>Dimensione</span><input id="text-size" type="range" min="22" max="110" value="54"><output id="text-size-out">54</output></label>
-            <label class="range-control"><span>Larghezza</span><input id="text-width" type="range" min="35" max="92" value="74"><output id="text-width-out">74%</output></label>
-            <label class="range-control"><span>Opacità sfondo</span><input id="text-bg-opacity" type="range" min="0" max="100" value="72"><output id="text-bg-opacity-out">72%</output></label>
-          </div>
-
-          <div class="tool-panel" data-panel="phrases"><div class="panel-title"><div><span class="eyebrow">FRASI</span><h3>Inserisci dalla banca</h3></div></div><div class="phrase-picker" id="phrase-picker"></div></div>
-
-          <div class="tool-panel" data-panel="look"><div class="panel-title"><div><span class="eyebrow">LOOK</span><h3>Il tono della foto</h3></div></div><div class="look-row" id="look-row"></div><label class="range-control"><span>Intensità</span><input id="filter-strength" type="range" min="0" max="100" value="80"><output id="filter-strength-out">80%</output></label></div>
-
-          <div class="tool-panel" data-panel="stickers"><div class="panel-title"><div><span class="eyebrow">STICKER</span><h3>Aggiungi un elemento</h3></div></div><div class="sticker-picker" id="sticker-picker"></div></div>
-
-          <div class="tool-panel" data-panel="signature"><div class="panel-title"><div><span class="eyebrow">FIRMA</span><h3>Ironicamente Acida</h3></div></div><div class="signature-controls"><button id="add-signature">Aggiungi firma</button><button id="remove-signature">Rimuovi</button></div></div>
-        </div>
-
-        <div class="editor-bottom">
-          <button id="editor-project" class="dark-action">Salva progetto</button>
-          <button id="editor-export" class="orange-action">Condividi</button>
-        </div>
-      </section>
-    </main>
-
-    <nav class="bottom-dock" id="bottom-dock">
-      <button data-nav="home" class="selected"><span class="dock-shape dock-create-shape"><i></i></span><b>Crea</b></button>
-      <button data-nav="templates"><span class="dock-shape dock-template-shape"><i></i><i></i><i></i><i></i></span><b>Template</b></button>
-      <button data-nav="projects"><span class="dock-shape dock-project-shape"><i></i><i></i></span><b>Progetti</b></button>
-      <button data-nav="profile"><span class="dock-shape dock-profile-shape"><i></i><i></i></span><b>Profilo</b></button>
-    </nav>
-
-    <input id="photo-input" type="file" accept="image/*" hidden>
-    <input id="video-input" type="file" accept="video/*" hidden>
-
-    <div class="sheet hidden" id="create-sheet"><div class="sheet-backdrop" data-sheet-close></div><div class="sheet-card"><div class="sheet-handle"></div><div class="sheet-head"><span class="eyebrow">NUOVO CONTENUTO</span><h2>Cosa vuoi creare?</h2></div><div class="sheet-actions"><button data-create="morning"><span class="sheet-icon sun-icon"><i></i></span><div><b>Storia del buongiorno</b><small>Frase pronta + foto + look</small></div></button><button data-create="story"><span class="sheet-icon story-icon"><i></i></span><div><b>Storia</b><small>Foto, video o solo testo</small></div></button><button data-create="carousel"><span class="sheet-icon carousel-icon"><i></i><i></i><i></i></span><div><b>Carosello</b><small>5 slide modificabili</small></div></button><button data-create="reel"><span class="sheet-icon reel-icon"><i></i></span><div><b>Reel</b><small>Video + testo + filtro</small></div></button></div></div></div>
-
-    <div class="sheet hidden" id="library-sheet"><div class="sheet-backdrop" data-library-close></div><div class="sheet-card tall"><div class="sheet-handle"></div><div class="sheet-head"><span class="eyebrow">LE TUE FOTO</span><h2>Scegli dall’archivio</h2></div><div class="library-grid" id="library-grid"></div></div></div>
-
-    <div class="toast hidden" id="toast"></div>
-  </div>
-
-  <script src="./db.js?v=300"></script>
-  <script src="./app.js?v=300"></script>
+<div id="library-sheet" class="sheet hidden"><div class="sheet-card"><div class="sheet-head"><h3>Scegli una fotografia</h3><button data-library-close>×</button></div><div id="library-grid" class="library-grid"></div></div></div>
+<div id="toast" class="toast hidden"></div>
+<input id="photo-input" type="file" accept="image/*" hidden>
+<input id="video-input" type="file" accept="video/*" hidden>
+</div>
+<script src="./db.js?v=400"></script>
+<script src="./app.js?v=400"></script>
 </body>
 </html>
