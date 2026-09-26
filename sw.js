@@ -1,11 +1,8 @@
-const CACHE='ia-v231-hotfix-20260925';
-const CORE=['./','./index.html','./styles.css','./db.js','./zip.js','./app.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png','./logo.png','./signature.svg','./phrases.json','./stickers.json','./brand-logo.webp','./home-portrait.webp','./card-photo.webp','./card-video.webp','./card-template.webp','./travel-suitcase.webp','./avatar-ring.webp','./home-reel.mp4'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{
-  if(e.request.method!=='GET')return;
-  const url=new URL(e.request.url);
-  const fresh=e.request.mode==='navigate'||/\/(?:index\.html|app\.js|styles\.css|signature\.svg|manifest\.webmanifest|icon-192\.png|icon-512\.png|apple-touch-icon\.png)(?:\?|$)/.test(url.pathname+url.search);
-  if(fresh){e.respondWith(fetch(e.request).then(res=>{const copy=res.clone();if(url.origin===location.origin)caches.open(CACHE).then(c=>c.put(e.request,copy));return res;}).catch(()=>caches.match(e.request)));return;}
-  e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(res=>{const copy=res.clone();if(url.origin===location.origin)caches.open(CACHE).then(c=>c.put(e.request,copy));return res;})));
-});
+// V3 development service worker: intentionally no offline cache.
+self.addEventListener('install', event => self.skipWaiting());
+self.addEventListener('activate', event => event.waitUntil((async()=>{
+  const keys = await caches.keys();
+  await Promise.all(keys.map(k=>caches.delete(k)));
+  await self.clients.claim();
+})()));
+self.addEventListener('fetch', event => { event.respondWith(fetch(event.request)); });

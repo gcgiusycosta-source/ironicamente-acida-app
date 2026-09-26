@@ -1,0 +1,19 @@
+IRONICAMENTE ACIDA — V3 STUDIO / QA
+Build 01
+
+CONTROLLI ESEGUITI
+- JavaScript: `node --check app.js` OK.
+- JSON: manifest, photos, phrases e stickers validi.
+- HTML: 66 ID, nessun ID duplicato.
+- Risorse statiche: tutte le risorse concrete referenziate da HTML/CSS/JS sono presenti.
+- Libreria: 14 fotografie personali, 240 frasi, 82 sticker.
+- Icone esterne: icon-192, icon-512 e apple-touch-icon mantenute dalla versione approvata.
+- Firma: signature.svg ufficiale mantenuta.
+- Upload foto/video: la V3 non usa più pre-decodifica o conversione prima dell'apertura. Usa URL.createObjectURL e visualizzazione nativa <img>/<video>.
+- Cache sviluppo: nessuna cache offline; il nuovo sw.js cancella cache precedenti e l'app prova a disregistrare vecchi service worker.
+
+DA VALIDARE SU IPHONE
+- Apertura reale di foto HEIC/JPEG dalla libreria Foto.
+- Apertura reale di video MOV/HEVC e MP4/H.264.
+- Web Share finale.
+- Esportazione Reel composita: non è dichiarata definitiva in build 01; il progetto Reel è modificabile e salvabile, mentre la condivisione video usa il file sorgente.

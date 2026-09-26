@@ -1,12 +1,12 @@
 {
   "name": "Ironicamente Acida",
   "short_name": "Ironicamente Acida",
-  "description": "Creator social dinamico per foto, video, template, frasi e sticker.",
+  "description": "Personal content studio per Storie, Caroselli, Reel, Template, Frasi e Sticker.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#E65F22",
-  "theme_color": "#E65F22",
+  "background_color": "#0D0D0D",
+  "theme_color": "#0D0D0D",
   "orientation": "portrait-primary",
   "icons": [
     {

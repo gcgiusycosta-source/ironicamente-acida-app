@@ -1,0 +1,86 @@
+[
+  {
+    "src": "./ia_photo_01.webp",
+    "label": "biblioteca",
+    "w": 1050,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_02.webp",
+    "label": "giardino",
+    "w": 1050,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_03.webp",
+    "label": "cortile",
+    "w": 1050,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_04.webp",
+    "label": "portale",
+    "w": 788,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_05.webp",
+    "label": "torre",
+    "w": 1050,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_06.webp",
+    "label": "casa_rossa",
+    "w": 788,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_07.webp",
+    "label": "biblioteca_bimbi",
+    "w": 1050,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_08.webp",
+    "label": "fiori",
+    "w": 1050,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_09.webp",
+    "label": "caffe_libro",
+    "w": 1400,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_10.webp",
+    "label": "pasticceria",
+    "w": 788,
+    "h": 1400
+  },
+  {
+    "src": "./ia_photo_11.webp",
+    "label": "travel",
+    "w": 1254,
+    "h": 1254
+  },
+  {
+    "src": "./ia_photo_12.webp",
+    "label": "lettura",
+    "w": 1254,
+    "h": 1254
+  },
+  {
+    "src": "./ia_photo_13.webp",
+    "label": "ritratto_lineart",
+    "w": 1254,
+    "h": 1254
+  },
+  {
+    "src": "./ia_photo_14.webp",
+    "label": "profilo",
+    "w": 1254,
+    "h": 1254
+  }
+]
