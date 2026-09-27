@@ -1,19 +1,19 @@
 IRONICAMENTE ACIDA — V3 STUDIO / QA
-Build 01
+BUILD 05 ESSENTIAL
 
 CONTROLLI ESEGUITI
-- JavaScript: `node --check app.js` OK.
-- JSON: manifest, photos, phrases e stickers validi.
-- HTML: 66 ID, nessun ID duplicato.
-- Risorse statiche: tutte le risorse concrete referenziate da HTML/CSS/JS sono presenti.
-- Libreria: 14 fotografie personali, 240 frasi, 82 sticker.
-- Icone esterne: icon-192, icon-512 e apple-touch-icon mantenute dalla versione approvata.
-- Firma: signature.svg ufficiale mantenuta.
-- Upload foto/video: la V3 non usa più pre-decodifica o conversione prima dell'apertura. Usa URL.createObjectURL e visualizzazione nativa <img>/<video>.
-- Cache sviluppo: nessuna cache offline; il nuovo sw.js cancella cache precedenti e l'app prova a disregistrare vecchi service worker.
+- app.js, db.js e sw.js validati sintatticamente con Node.
+- index.html analizzato strutturalmente: schermate Home, Template, Progetti, Profilo, Impostazioni, Frasi, Sticker, Editor presenti.
+- Nessun ID HTML duplicato.
+- Nessun archivio fotografico presente nella Home.
+- Nessuna sezione Foto presente nel Profilo.
+- Nessuna Libreria foto interna presente nell'editor.
+- Template privi di fotografie preimpostate.
+- Profilo collegato a Frasi, Sticker, Template e Impostazioni.
+- Sticker archivio limitato a 24 elementi al primo render con caricamento progressivo.
+- JSON dati validati.
+- Asset locali esplicitamente referenziati: nessun file mancante nel controllo statico.
+- Server HTTP locale verificato con richiesta 200 OK.
 
-DA VALIDARE SU IPHONE
-- Apertura reale di foto HEIC/JPEG dalla libreria Foto.
-- Apertura reale di video MOV/HEVC e MP4/H.264.
-- Web Share finale.
-- Esportazione Reel composita: non è dichiarata definitiva in build 01; il progetto Reel è modificabile e salvabile, mentre la condivisione video usa il file sorgente.
+NOTA TEST BROWSER
+Il browser Chromium dell'ambiente di verifica blocca per policy amministrativa l'accesso a localhost (ERR_BLOCKED_BY_ADMINISTRATOR); per questo non viene dichiarato uno smoke test grafico headless della Build 05. Il test finale di interazione resta da eseguire su iPhone/Safari reale.

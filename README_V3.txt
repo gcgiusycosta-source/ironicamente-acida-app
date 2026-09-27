@@ -1,22 +1,19 @@
 IRONICAMENTE ACIDA — V3 STUDIO
-Build 01
+BUILD 05 ESSENTIAL
 
 OBIETTIVO
-Personal content studio per creare rapidamente Storie, Caroselli e Reel con l'identità Ironicamente Acida.
+Ridurre al minimo caricamenti, scelte superflue e sezioni non utili. La app deve essere un motore operativo rapido, non un archivio fotografico.
 
-NOVITÀ
-- Home dark/editorial, fotografica e animata.
-- Quattro ingressi rapidi: Storia del buongiorno, Storia, Carosello, Reel.
-- Template fotografici e testuali separati per categoria.
-- Editor ricostruito senza pre-decodifica di foto/video: il file viene aperto direttamente dal browser tramite object URL.
-- Testo spostabile, font, colore, dimensione, larghezza, allineamento, sfondo e opacità.
-- Sfondo testo: nessuno, avorio, scuro, vetro, carta, contorno.
-- Sticker, firma, filtri, libreria foto.
-- Carosello precomposto in 5 slide, modificabile.
-- 14 fotografie personali integrate nella libreria.
-- 82 sticker già presenti.
-- Icona esterna e firma ufficiale mantenute.
-- Cache offline disattivata durante lo sviluppo per evitare versioni obsolete su iPhone.
-
-NOTA REEL
-La V3 carica e modifica il video in modo nativo e salva il progetto. La condivisione video usa il file video originale; la composizione visiva resta nel progetto. L'export video composito va validato su Safari/iPhone prima di essere reso definitivo.
+CAMBIAMENTI PRINCIPALI
+- Eliminato l'archivio visivo/fotografico dalla Home.
+- Eliminata la sezione Foto dal Profilo.
+- Le fotografie fornite restano solo come risorse decorative leggere nei riquadri dell'interfaccia.
+- Il pallino Profilo resta e conduce a Frasi, Sticker, Template e Impostazioni.
+- Le Impostazioni hanno ora una schermata reale.
+- I Template sono layout tipografici: nessuna fotografia preimpostata.
+- L'editor non propone più la libreria delle 14 foto: usa Foto/Video dell'utente.
+- Sticker: apertura progressiva, 24 elementi alla volta.
+- Caroselli: 5 slide con stile condiviso e base grafica leggera.
+- Home: logo testuale, un solo hero statico, niente slideshow fotografico.
+- Splash alleggerito e privo di fotografia/logo bitmap.
+- Service worker v350 con core ridotto.
